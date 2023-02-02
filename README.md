@@ -6,4 +6,4 @@ Since the Partnership's domain (datapartnership.org) is registered to [GitHub Pa
 
 ## License
 
-© Development Data Partnership
+The `heatwaves` repository is licensed under the **World Bank Master Community License Agreement**.
