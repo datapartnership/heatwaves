@@ -1,5 +1,4 @@
-import dask
-import pandas 
+
 
 def convert_kelvin_to_fahrenheit(k):
     return 1.8*(k-273.15) + 32
