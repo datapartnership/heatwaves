@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "datapartnership-heatwaves"
+dynamic = ["version"]
+description = "An Python package that contains all the weather related functions used in heatwaves"
+readme = {file = "README.md", content-type = "text/markdown"}
+license = {file = "LICENSE"}
+keywords = ["world bank", "development data partnership", "heatwaves"]
+authors = [
+  {name="Development Data Partnership", email="datapartnership@worldbank.org"},
+]
+maintainers = [
+  {name="Sahiti Sarva", email="ssarva@worldbank.org"},
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+	"Programming Language :: Python :: 3.10",
+	"Programming Language :: Python :: 3.11",
+	"Programming Language :: Python :: 3 :: Only",
+	"Development Status :: 3 - Alpha",
+	"Intended Audience :: Developers",
+	"Intended Audience :: Science/Research",
+	"Operating System :: OS Independent",
+]
+requires-python = ">=3.10"
+dependencies = [
+	"pandas>=2",
+]
+[project.optional-dependencies]
+notebook = ["notebook>=6.5.2"]
+
+[project.urls]
+"Homepage" = "https://github.com/datapartnership/heatwaves"
+"Bug Reports" = "https://github.com/datapartnership/heatwaves/issues"
+"Source" = "https://github.com/datapartnership/heatwaves"
+
+[tool.setuptools.dynamic]
+version = {attr = "heatwaves.__version__"}
