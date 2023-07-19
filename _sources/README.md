@@ -1,2 +1,0 @@
-# Heatwave Data Collaborative
-
