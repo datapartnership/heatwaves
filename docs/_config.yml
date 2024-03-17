@@ -8,35 +8,33 @@ repository:
   url: https://github.com/datapartnership/heatwaves
   branch: main
 
-#######################################################################################
-# HTML-specific settings
 html:
 
-    home_page_in_navbar: false
-    extra_navbar: ""
-    use_edit_page_button: true
-    use_repository_button: true
-    use_issues_button: true
-    baseurl: https://datapartnership.github.io/datapartnership/heatwaves/philippines
-    extra_footer: |
-        <div>
-            <b>All content (unless otherwise specified) is subject to the <a href="https://raw.githubusercontent.com/worldbank/template/main/LICENSE">World Bank Master Community License Agreement.</a></b>
-        </div>
-    google_analytics_id: G-ETJ4QT0E4L
-=======
-#   home_page_in_navbar: true
-#   extra_navbar: ""
-#   use_edit_page_button: true
-#   use_repository_button: true
-#   use_issues_button: true
-#   baseurl: https://datapartnership.github.io/heatwaves/PH
-#   extra_footer: |
-#     <div>
-#      Country borders or names do not necessarily reflect the World Bank Group’s official position. All maps are for illustrative purposes and do not imply the expression of any opinion on the part of the World Bank, concerning the legal status of any country or territory or concerning the delimitation of frontiers or boundaries
-#     </div>
-#     <div>
-#         <b>All content (unless otherwise specified) is subject to the <a href="https://www.mozilla.org/en-US/MPL">Mozilla Public License.</a></b>
-#     </div>
+    # home_page_in_navbar: false
+    # extra_navbar: ""
+    # use_edit_page_button: true
+    # use_repository_button: true
+    # use_issues_button: true
+    # baseurl: https://datapartnership.github.io/datapartnership/heatwaves/philippines
+    # extra_footer: |
+    #     <div>
+    #         <b>All content (unless otherwise specified) is subject to the <a href="https://raw.githubusercontent.com/worldbank/template/main/LICENSE">World Bank Master Community License Agreement.</a></b>
+    #     </div>
+    # google_analytics_id: G-ETJ4QT0E4L
+
+  home_page_in_navbar: true
+  extra_navbar: ""
+  use_edit_page_button: true
+  use_repository_button: true
+  use_issues_button: true
+  baseurl: https://datapartnership.github.io/heatwaves/PH
+  extra_footer: |
+    <div>
+     Country borders or names do not necessarily reflect the World Bank Group’s official position. All maps are for illustrative purposes and do not imply the expression of any opinion on the part of the World Bank, concerning the legal status of any country or territory or concerning the delimitation of frontiers or boundaries
+    </div>
+    <div>
+        <b>All content (unless otherwise specified) is subject to the <a href="https://www.mozilla.org/en-US/MPL">Mozilla Public License.</a></b>
+    </div>
 
 
 #######################################################################################
