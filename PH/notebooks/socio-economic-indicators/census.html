@@ -1,0 +1,1171 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Access to Cooling in NCR</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/sphinx_highlight.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'notebooks/socio-economic-indicators/census';</script>
+    <link rel="canonical" href="https://datapartnership.github.io/heatwaves/PH/notebooks/socio-economic-indicators/census.html" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Air Pollution in Manila" href="../air-pollution/air-pollution.html" />
+    <link rel="prev" title="Understanding Impacts of Excess Heat in Filipino cities" href="../measuring-heatwaves/heatwaves-in-philippines.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+    <meta name="docbuild:last-update" content="Mar 17, 2024"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="../../README.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../_static/logo.png" class="logo__image only-light" alt=" - Home"/>
+    <script>document.write(`<img src="../../_static/logo.png" class="logo__image only-dark" alt=" - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../README.html">
+                    Understanding Impacts of Excess Heat in Filipino cities
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Heatwaves in the Philippines</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../measuring-heatwaves/heatwaves-in-philippines.html">Understanding Impacts of Excess Heat in Filipino cities</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Access to Cooling in NCR</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../air-pollution/air-pollution.html">Air Pollution in Manila</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/datapartnership/heatwaves" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/datapartnership/heatwaves/edit/main/notebooks/socio-economic-indicators/census.ipynb" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/datapartnership/heatwaves/issues/new?title=Issue%20on%20page%20%2Fnotebooks/socio-economic-indicators/census.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/notebooks/socio-economic-indicators/census.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Access to Cooling in NCR</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data">Data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#description-of-the-census-data">Description of the Census Data</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="access-to-cooling-in-ncr">
+<h1>Access to Cooling in NCR<a class="headerlink" href="#access-to-cooling-in-ncr" title="Permalink to this heading">#</a></h1>
+<p>This notebook explores the census dataset to understand access to cooling in different provinces of NCR</p>
+<section id="data">
+<h2>Data<a class="headerlink" href="#data" title="Permalink to this heading">#</a></h2>
+<p>The data for this was obtained from the census dataset provided by the Filipino govt. The locations of the latest barangays are taken from an open repository on <a class="reference external" href="https://github.com/altcoder/philippines-psgc-shapefiles?tab=readme-ov-file">GitHub</a>.</p>
+</section>
+<section id="description-of-the-census-data">
+<h2>Description of the Census Data<a class="headerlink" href="#description-of-the-census-data" title="Permalink to this heading">#</a></h2>
+<p>There are 17 provinces, 30 municipalities and 1299 barangays in the NCR region. There are 13.4 million responses in the NCR file of the Census which is roughly the population of the region. In the Form 3 responses, which captures 10% of the representative population, there are 2.5 million responses. The access to cooling data is obatined from the representative sample.</p>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<div class="output text_html"><div class="bk-root">
+        <a href="https://bokeh.org" target="_blank" class="bk-logo bk-logo-small bk-logo-notebook"></a>
+        <span id="21211">Loading BokehJS ...</span>
+    </div>
+</div><script type="application/javascript">(function(root) {
+  function now() {
+    return new Date();
+  }
+
+  const force = true;
+
+  if (typeof root._bokeh_onload_callbacks === "undefined" || force === true) {
+    root._bokeh_onload_callbacks = [];
+    root._bokeh_is_loading = undefined;
+  }
+
+const JS_MIME_TYPE = 'application/javascript';
+  const HTML_MIME_TYPE = 'text/html';
+  const EXEC_MIME_TYPE = 'application/vnd.bokehjs_exec.v0+json';
+  const CLASS_NAME = 'output_bokeh rendered_html';
+
+  /**
+   * Render data to the DOM node
+   */
+  function render(props, node) {
+    const script = document.createElement("script");
+    node.appendChild(script);
+  }
+
+  /**
+   * Handle when an output is cleared or removed
+   */
+  function handleClearOutput(event, handle) {
+    const cell = handle.cell;
+
+    const id = cell.output_area._bokeh_element_id;
+    const server_id = cell.output_area._bokeh_server_id;
+    // Clean up Bokeh references
+    if (id != null && id in Bokeh.index) {
+      Bokeh.index[id].model.document.clear();
+      delete Bokeh.index[id];
+    }
+
+    if (server_id !== undefined) {
+      // Clean up Bokeh references
+      const cmd_clean = "from bokeh.io.state import curstate; print(curstate().uuid_to_server['" + server_id + "'].get_sessions()[0].document.roots[0]._id)";
+      cell.notebook.kernel.execute(cmd_clean, {
+        iopub: {
+          output: function(msg) {
+            const id = msg.content.text.trim();
+            if (id in Bokeh.index) {
+              Bokeh.index[id].model.document.clear();
+              delete Bokeh.index[id];
+            }
+          }
+        }
+      });
+      // Destroy server and session
+      const cmd_destroy = "import bokeh.io.notebook as ion; ion.destroy_server('" + server_id + "')";
+      cell.notebook.kernel.execute(cmd_destroy);
+    }
+  }
+
+  /**
+   * Handle when a new output is added
+   */
+  function handleAddOutput(event, handle) {
+    const output_area = handle.output_area;
+    const output = handle.output;
+
+    // limit handleAddOutput to display_data with EXEC_MIME_TYPE content only
+    if ((output.output_type != "display_data") || (!Object.prototype.hasOwnProperty.call(output.data, EXEC_MIME_TYPE))) {
+      return
+    }
+
+    const toinsert = output_area.element.find("." + CLASS_NAME.split(' ')[0]);
+
+    if (output.metadata[EXEC_MIME_TYPE]["id"] !== undefined) {
+      toinsert[toinsert.length - 1].firstChild.textContent = output.data[JS_MIME_TYPE];
+      // store reference to embed id on output_area
+      output_area._bokeh_element_id = output.metadata[EXEC_MIME_TYPE]["id"];
+    }
+    if (output.metadata[EXEC_MIME_TYPE]["server_id"] !== undefined) {
+      const bk_div = document.createElement("div");
+      bk_div.innerHTML = output.data[HTML_MIME_TYPE];
+      const script_attrs = bk_div.children[0].attributes;
+      for (let i = 0; i < script_attrs.length; i++) {
+        toinsert[toinsert.length - 1].firstChild.setAttribute(script_attrs[i].name, script_attrs[i].value);
+        toinsert[toinsert.length - 1].firstChild.textContent = bk_div.children[0].textContent
+      }
+      // store reference to server id on output_area
+      output_area._bokeh_server_id = output.metadata[EXEC_MIME_TYPE]["server_id"];
+    }
+  }
+
+  function register_renderer(events, OutputArea) {
+
+    function append_mime(data, metadata, element) {
+      // create a DOM node to render to
+      const toinsert = this.create_output_subarea(
+        metadata,
+        CLASS_NAME,
+        EXEC_MIME_TYPE
+      );
+      this.keyboard_manager.register_events(toinsert);
+      // Render to node
+      const props = {data: data, metadata: metadata[EXEC_MIME_TYPE]};
+      render(props, toinsert[toinsert.length - 1]);
+      element.append(toinsert);
+      return toinsert
+    }
+
+    /* Handle when an output is cleared or removed */
+    events.on('clear_output.CodeCell', handleClearOutput);
+    events.on('delete.Cell', handleClearOutput);
+
+    /* Handle when a new output is added */
+    events.on('output_added.OutputArea', handleAddOutput);
+
+    /**
+     * Register the mime type and append_mime function with output_area
+     */
+    OutputArea.prototype.register_mime_type(EXEC_MIME_TYPE, append_mime, {
+      /* Is output safe? */
+      safe: true,
+      /* Index of renderer in `output_area.display_order` */
+      index: 0
+    });
+  }
+
+  // register the mime type if in Jupyter Notebook environment and previously unregistered
+  if (root.Jupyter !== undefined) {
+    const events = require('base/js/events');
+    const OutputArea = require('notebook/js/outputarea').OutputArea;
+
+    if (OutputArea.prototype.mime_types().indexOf(EXEC_MIME_TYPE) == -1) {
+      register_renderer(events, OutputArea);
+    }
+  }
+  if (typeof (root._bokeh_timeout) === "undefined" || force === true) {
+    root._bokeh_timeout = Date.now() + 5000;
+    root._bokeh_failed_load = false;
+  }
+
+  const NB_LOAD_WARNING = {'data': {'text/html':
+     "<div style='background-color: #fdd'>\n"+
+     "<p>\n"+
+     "BokehJS does not appear to have successfully loaded. If loading BokehJS from CDN, this \n"+
+     "may be due to a slow or bad network connection. Possible fixes:\n"+
+     "</p>\n"+
+     "<ul>\n"+
+     "<li>re-rerun `output_notebook()` to attempt to load from CDN again, or</li>\n"+
+     "<li>use INLINE resources instead, as so:</li>\n"+
+     "</ul>\n"+
+     "<code>\n"+
+     "from bokeh.resources import INLINE\n"+
+     "output_notebook(resources=INLINE)\n"+
+     "</code>\n"+
+     "</div>"}};
+
+  function display_loaded() {
+    const el = document.getElementById("21211");
+    if (el != null) {
+      el.textContent = "BokehJS is loading...";
+    }
+    if (root.Bokeh !== undefined) {
+      if (el != null) {
+        el.textContent = "BokehJS " + root.Bokeh.version + " successfully loaded.";
+      }
+    } else if (Date.now() < root._bokeh_timeout) {
+      setTimeout(display_loaded, 100)
+    }
+  }
+
+  function run_callbacks() {
+    try {
+      root._bokeh_onload_callbacks.forEach(function(callback) {
+        if (callback != null)
+          callback();
+      });
+    } finally {
+      delete root._bokeh_onload_callbacks
+    }
+    console.debug("Bokeh: all callbacks have finished");
+  }
+
+  function load_libs(css_urls, js_urls, callback) {
+    if (css_urls == null) css_urls = [];
+    if (js_urls == null) js_urls = [];
+
+    root._bokeh_onload_callbacks.push(callback);
+    if (root._bokeh_is_loading > 0) {
+      console.debug("Bokeh: BokehJS is being loaded, scheduling callback at", now());
+      return null;
+    }
+    if (js_urls == null || js_urls.length === 0) {
+      run_callbacks();
+      return null;
+    }
+    console.debug("Bokeh: BokehJS not loaded, scheduling load and callback at", now());
+    root._bokeh_is_loading = css_urls.length + js_urls.length;
+
+    function on_load() {
+      root._bokeh_is_loading--;
+      if (root._bokeh_is_loading === 0) {
+        console.debug("Bokeh: all BokehJS libraries/stylesheets loaded");
+        run_callbacks()
+      }
+    }
+
+    function on_error(url) {
+      console.error("failed to load " + url);
+    }
+
+    for (let i = 0; i < css_urls.length; i++) {
+      const url = css_urls[i];
+      const element = document.createElement("link");
+      element.onload = on_load;
+      element.onerror = on_error.bind(null, url);
+      element.rel = "stylesheet";
+      element.type = "text/css";
+      element.href = url;
+      console.debug("Bokeh: injecting link tag for BokehJS stylesheet: ", url);
+      document.body.appendChild(element);
+    }
+
+    for (let i = 0; i < js_urls.length; i++) {
+      const url = js_urls[i];
+      const element = document.createElement('script');
+      element.onload = on_load;
+      element.onerror = on_error.bind(null, url);
+      element.async = false;
+      element.src = url;
+      console.debug("Bokeh: injecting script tag for BokehJS library: ", url);
+      document.head.appendChild(element);
+    }
+  };
+
+  function inject_raw_css(css) {
+    const element = document.createElement("style");
+    element.appendChild(document.createTextNode(css));
+    document.body.appendChild(element);
+  }
+
+  const js_urls = ["https://cdn.bokeh.org/bokeh/release/bokeh-2.4.3.min.js", "https://cdn.bokeh.org/bokeh/release/bokeh-gl-2.4.3.min.js", "https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.4.3.min.js", "https://cdn.bokeh.org/bokeh/release/bokeh-tables-2.4.3.min.js", "https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-2.4.3.min.js"];
+  const css_urls = [];
+
+  const inline_js = [    function(Bokeh) {
+      Bokeh.set_log_level("info");
+    },
+function(Bokeh) {
+    }
+  ];
+
+  function run_inline_js() {
+    if (root.Bokeh !== undefined || force === true) {
+          for (let i = 0; i < inline_js.length; i++) {
+      inline_js[i].call(root, root.Bokeh);
+    }
+if (force === true) {
+        display_loaded();
+      }} else if (Date.now() < root._bokeh_timeout) {
+      setTimeout(run_inline_js, 100);
+    } else if (!root._bokeh_failed_load) {
+      console.log("Bokeh: BokehJS failed to load within specified timeout.");
+      root._bokeh_failed_load = true;
+    } else if (force !== true) {
+      const cell = $(document.getElementById("21211")).parents('.cell').data().cell;
+      cell.output_area.append_execute_result(NB_LOAD_WARNING)
+    }
+  }
+
+  if (root._bokeh_is_loading === 0) {
+    console.debug("Bokeh: BokehJS loaded, going straight to plotting");
+    run_inline_js();
+  } else {
+    load_libs(css_urls, js_urls, function() {
+      console.debug("Bokeh: BokehJS plotting callback run at", now());
+      run_inline_js();
+    });
+  }
+}(window));</script><div class="output text_html">
+  <div class="bk-root" id="c1b49ef1-4206-458d-9d75-5f49d00f8b81" data-root-id="21212"></div>
+</div><script type="application/javascript">(function(root) {
+  function embed_document(root) {
+  const docs_json = {"a685e4ac-7fc7-45fa-83ce-f7aecd09dd05":{"defs":[],"roots":{"references":[{"attributes":{"below":[{"id":"21223"}],"center":[{"id":"21225"},{"id":"21229"}],"height":500,"left":[{"id":"21226"}],"renderers":[{"id":"21236"}],"title":{"id":"21213"},"toolbar":{"id":"21230"},"toolbar_location":"above","width":1000,"x_range":{"id":"21215"},"x_scale":{"id":"21219"},"y_range":{"id":"21217"},"y_scale":{"id":"21221"}},"id":"21212","subtype":"Figure","type":"Plot"},{"attributes":{"data":{"% with AC Access":{"__ndarray__":"kQ7xKgvtNUAivECrpfpCQNajiBkWgURABu5MSCe0NUB7iHXIfFNDQDtbG+5Uf0BATdRxl+TVQkC4m4Z9NJY+QBAEQRAEQTJAa8FN4CzkQkA10Wns6bdAQPL6tWhGyUhAMtRFEXiqO0BzI6MNClY3QE9b5t08f0FAoVq1T0+7QUBrJS2o9bE+QA==","dtype":"float64","order":"little","shape":[17]},"% with CE Access":{"__ndarray__":"QfMtHB7JV0C2ADIymTFYQCHTpfH4rlVA5F2FEC7dV0DnwURpR9ZXQJORFiNVsVdAdEf2M1UTWEC4uJ2mRAhYQFOxcSALtVdADzSB9akWWECxIJ+j99ZXQEVaTvuoBFhAHunayWGMV0D+sfe7bNVXQLRmALc0u1dAaMkBGl4EWECwYIjG9U1XQA==","dtype":"float64","order":"little","shape":[17]},"% without AC Access":{"__ndarray__":"jU1aODSCU0AmDuE/UwBPQBqh6uI8uklAycCdCemEU0BmXIB9OV5OQPm4nYa0qFBAyTKCCaYYT0DdT+MF7hhRQFjq+R1/aVRAfAHqqw8YT0BIYJDAw5xQQBNcDR+iw0hAEae/p6wAUkCc32pJUClTQGYgDW5WFlBAgWvHHVwgUEBN7DKKO9JQQA==","dtype":"float64","order":"little","shape":[17]},"% without CE Access":{"__ndarray__":"VXGMT11IE0DNjdxraHwJQG/1PMkI6xZAWfpKNTNXEUBWMAknQiIQQGpL/2NdchNA0IJ3kAN+DEBdwufUz8YGQIWghxlQSxRAn6xVE4ruDEA2CDbL7B4SQLgnahJpOQhAtgemoYnrFUCqZ78NYZYSQKB1/l8CrBFAJO0JdLU0D0AUyrXcBgwTQA==","dtype":"float64","order":"little","shape":[17]},"AC_Access":[71959,45420,36288,16311,28375,115910,34524,31252,8786,50116,47924,11247,46941,33004,27913,4573,182898],"Cooling_Equipment_Access":[312249,115799,76750,71738,69996,332928,88257,98220,45643,127807,136675,21797,159819,134831,75717,12388,555443],"No_AC_Access":[256102,74191,45532,58677,44587,234091,56997,69877,39299,82488,95240,11237,122181,108399,51328,8318,400919],"No_Cooling_Equipment_Access":[15821,3812,5070,3258,2961,17079,3264,2909,2442,4797,6493,687,9298,6572,3524,503,28373],"Unknown_AC":[130,47,6669,165,449,1297,125,1046,47,39,163,204,549,26,524,4,12036],"Unknown_CE":[121,47,6669,157,454,1291,125,1046,47,39,159,204,554,26,524,4,12037],"index":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],"prv_name":["City Of Caloocan","City Of Las Pi\u00f1as","City Of Makati","City Of Malabon","City Of Mandaluyong","City Of Manila","City Of Marikina","City Of Muntinlupa","City Of Navotas","City Of Para\u00f1aque","City Of Pasig","City Of San Juan","City Of Taguig","City Of Valenzuela","Pasay City","Pateros","Quezon City"],"total_AC":[328191,119658,88489,75153,73411,351298,91646,102175,48132,132643,143327,22688,169671,141429,79765,12895,595853],"total_CE":[328191,119658,88489,75153,73411,351298,91646,102175,48132,132643,143327,22688,169671,141429,79765,12895,595853]},"selected":{"id":"21670"},"selection_policy":{"id":"21669"}},"id":"21231","type":"ColumnDataSource"},{"attributes":{"axis":{"id":"21223"},"coordinates":null,"group":null,"ticker":null},"id":"21225","type":"Grid"},{"attributes":{},"id":"21227","type":"BasicTicker"},{"attributes":{},"id":"21224","type":"CategoricalTicker"},{"attributes":{"coordinates":null,"group":null,"text":"% Respondents with Access to Air Conditioning by Province","text_font_size":"18pt"},"id":"21213","type":"Title"},{"attributes":{},"id":"21664","type":"BasicTickFormatter"},{"attributes":{"coordinates":null,"data_source":{"id":"21231"},"glyph":{"id":"21233"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"21235"},"nonselection_glyph":{"id":"21234"},"view":{"id":"21237"}},"id":"21236","type":"GlyphRenderer"},{"attributes":{},"id":"21667","type":"CategoricalTickFormatter"},{"attributes":{"axis":{"id":"21226"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"21229","type":"Grid"},{"attributes":{},"id":"21669","type":"UnionRenderers"},{"attributes":{"factors":["City Of Caloocan","City Of Las Pi\u00f1as","City Of Makati","City Of Malabon","City Of Mandaluyong","City Of Manila","City Of Marikina","City Of Muntinlupa","City Of Navotas","City Of Para\u00f1aque","City Of Pasig","City Of San Juan","City Of Taguig","City Of Valenzuela","Pasay City","Pateros","Quezon City"]},"id":"21215","type":"FactorRange"},{"attributes":{"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"top":{"field":"% with AC Access"},"width":{"value":0.5},"x":{"field":"prv_name"}},"id":"21233","type":"VBar"},{"attributes":{},"id":"21665","type":"AllLabels"},{"attributes":{},"id":"21670","type":"Selection"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"#1f77b4"},"hatch_alpha":{"value":0.2},"line_alpha":{"value":0.2},"line_color":{"value":"#1f77b4"},"top":{"field":"% with AC Access"},"width":{"value":0.5},"x":{"field":"prv_name"}},"id":"21235","type":"VBar"},{"attributes":{},"id":"21230","type":"Toolbar"},{"attributes":{},"id":"21668","type":"AllLabels"},{"attributes":{},"id":"21221","type":"LinearScale"},{"attributes":{"source":{"id":"21231"}},"id":"21237","type":"CDSView"},{"attributes":{"axis_label":"% Respondents","axis_label_text_font_style":"bold","coordinates":null,"formatter":{"id":"21664"},"group":null,"major_label_policy":{"id":"21665"},"ticker":{"id":"21227"}},"id":"21226","type":"LinearAxis"},{"attributes":{},"id":"21219","type":"CategoricalScale"},{"attributes":{"end":100,"start":0},"id":"21217","type":"DataRange1d"},{"attributes":{"axis_label":"Provinces","axis_label_text_font_style":"bold","coordinates":null,"formatter":{"id":"21667"},"group":null,"major_label_orientation":45,"major_label_policy":{"id":"21668"},"major_label_text_font_size":"10pt","ticker":{"id":"21224"}},"id":"21223","type":"CategoricalAxis"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"hatch_alpha":{"value":0.1},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"% with AC Access"},"width":{"value":0.5},"x":{"field":"prv_name"}},"id":"21234","type":"VBar"}],"root_ids":["21212"]},"title":"Bokeh Application","version":"2.4.3"}};
+  const render_items = [{"docid":"a685e4ac-7fc7-45fa-83ce-f7aecd09dd05","root_ids":["21212"],"roots":{"21212":"c1b49ef1-4206-458d-9d75-5f49d00f8b81"}}];
+  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
+  }
+  if (root.Bokeh !== undefined) {
+    embed_document(root);
+  } else {
+    let attempts = 0;
+    const timer = setInterval(function(root) {
+      if (root.Bokeh !== undefined) {
+        clearInterval(timer);
+        embed_document(root);
+      } else {
+        attempts++;
+        if (attempts > 100) {
+          clearInterval(timer);
+          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+        }
+      }
+    }, 10, root)
+  }
+})(window);</script></div>
+</div>
+<div class="cell tag_remove-input docutils container">
+<div class="cell_output docutils container">
+<div class="output text_html"><div class="bk-root">
+        <a href="https://bokeh.org" target="_blank" class="bk-logo bk-logo-small bk-logo-notebook"></a>
+        <span id="21843">Loading BokehJS ...</span>
+    </div>
+</div><script type="application/javascript">(function(root) {
+  function now() {
+    return new Date();
+  }
+
+  const force = true;
+
+  if (typeof root._bokeh_onload_callbacks === "undefined" || force === true) {
+    root._bokeh_onload_callbacks = [];
+    root._bokeh_is_loading = undefined;
+  }
+
+const JS_MIME_TYPE = 'application/javascript';
+  const HTML_MIME_TYPE = 'text/html';
+  const EXEC_MIME_TYPE = 'application/vnd.bokehjs_exec.v0+json';
+  const CLASS_NAME = 'output_bokeh rendered_html';
+
+  /**
+   * Render data to the DOM node
+   */
+  function render(props, node) {
+    const script = document.createElement("script");
+    node.appendChild(script);
+  }
+
+  /**
+   * Handle when an output is cleared or removed
+   */
+  function handleClearOutput(event, handle) {
+    const cell = handle.cell;
+
+    const id = cell.output_area._bokeh_element_id;
+    const server_id = cell.output_area._bokeh_server_id;
+    // Clean up Bokeh references
+    if (id != null && id in Bokeh.index) {
+      Bokeh.index[id].model.document.clear();
+      delete Bokeh.index[id];
+    }
+
+    if (server_id !== undefined) {
+      // Clean up Bokeh references
+      const cmd_clean = "from bokeh.io.state import curstate; print(curstate().uuid_to_server['" + server_id + "'].get_sessions()[0].document.roots[0]._id)";
+      cell.notebook.kernel.execute(cmd_clean, {
+        iopub: {
+          output: function(msg) {
+            const id = msg.content.text.trim();
+            if (id in Bokeh.index) {
+              Bokeh.index[id].model.document.clear();
+              delete Bokeh.index[id];
+            }
+          }
+        }
+      });
+      // Destroy server and session
+      const cmd_destroy = "import bokeh.io.notebook as ion; ion.destroy_server('" + server_id + "')";
+      cell.notebook.kernel.execute(cmd_destroy);
+    }
+  }
+
+  /**
+   * Handle when a new output is added
+   */
+  function handleAddOutput(event, handle) {
+    const output_area = handle.output_area;
+    const output = handle.output;
+
+    // limit handleAddOutput to display_data with EXEC_MIME_TYPE content only
+    if ((output.output_type != "display_data") || (!Object.prototype.hasOwnProperty.call(output.data, EXEC_MIME_TYPE))) {
+      return
+    }
+
+    const toinsert = output_area.element.find("." + CLASS_NAME.split(' ')[0]);
+
+    if (output.metadata[EXEC_MIME_TYPE]["id"] !== undefined) {
+      toinsert[toinsert.length - 1].firstChild.textContent = output.data[JS_MIME_TYPE];
+      // store reference to embed id on output_area
+      output_area._bokeh_element_id = output.metadata[EXEC_MIME_TYPE]["id"];
+    }
+    if (output.metadata[EXEC_MIME_TYPE]["server_id"] !== undefined) {
+      const bk_div = document.createElement("div");
+      bk_div.innerHTML = output.data[HTML_MIME_TYPE];
+      const script_attrs = bk_div.children[0].attributes;
+      for (let i = 0; i < script_attrs.length; i++) {
+        toinsert[toinsert.length - 1].firstChild.setAttribute(script_attrs[i].name, script_attrs[i].value);
+        toinsert[toinsert.length - 1].firstChild.textContent = bk_div.children[0].textContent
+      }
+      // store reference to server id on output_area
+      output_area._bokeh_server_id = output.metadata[EXEC_MIME_TYPE]["server_id"];
+    }
+  }
+
+  function register_renderer(events, OutputArea) {
+
+    function append_mime(data, metadata, element) {
+      // create a DOM node to render to
+      const toinsert = this.create_output_subarea(
+        metadata,
+        CLASS_NAME,
+        EXEC_MIME_TYPE
+      );
+      this.keyboard_manager.register_events(toinsert);
+      // Render to node
+      const props = {data: data, metadata: metadata[EXEC_MIME_TYPE]};
+      render(props, toinsert[toinsert.length - 1]);
+      element.append(toinsert);
+      return toinsert
+    }
+
+    /* Handle when an output is cleared or removed */
+    events.on('clear_output.CodeCell', handleClearOutput);
+    events.on('delete.Cell', handleClearOutput);
+
+    /* Handle when a new output is added */
+    events.on('output_added.OutputArea', handleAddOutput);
+
+    /**
+     * Register the mime type and append_mime function with output_area
+     */
+    OutputArea.prototype.register_mime_type(EXEC_MIME_TYPE, append_mime, {
+      /* Is output safe? */
+      safe: true,
+      /* Index of renderer in `output_area.display_order` */
+      index: 0
+    });
+  }
+
+  // register the mime type if in Jupyter Notebook environment and previously unregistered
+  if (root.Jupyter !== undefined) {
+    const events = require('base/js/events');
+    const OutputArea = require('notebook/js/outputarea').OutputArea;
+
+    if (OutputArea.prototype.mime_types().indexOf(EXEC_MIME_TYPE) == -1) {
+      register_renderer(events, OutputArea);
+    }
+  }
+  if (typeof (root._bokeh_timeout) === "undefined" || force === true) {
+    root._bokeh_timeout = Date.now() + 5000;
+    root._bokeh_failed_load = false;
+  }
+
+  const NB_LOAD_WARNING = {'data': {'text/html':
+     "<div style='background-color: #fdd'>\n"+
+     "<p>\n"+
+     "BokehJS does not appear to have successfully loaded. If loading BokehJS from CDN, this \n"+
+     "may be due to a slow or bad network connection. Possible fixes:\n"+
+     "</p>\n"+
+     "<ul>\n"+
+     "<li>re-rerun `output_notebook()` to attempt to load from CDN again, or</li>\n"+
+     "<li>use INLINE resources instead, as so:</li>\n"+
+     "</ul>\n"+
+     "<code>\n"+
+     "from bokeh.resources import INLINE\n"+
+     "output_notebook(resources=INLINE)\n"+
+     "</code>\n"+
+     "</div>"}};
+
+  function display_loaded() {
+    const el = document.getElementById("21843");
+    if (el != null) {
+      el.textContent = "BokehJS is loading...";
+    }
+    if (root.Bokeh !== undefined) {
+      if (el != null) {
+        el.textContent = "BokehJS " + root.Bokeh.version + " successfully loaded.";
+      }
+    } else if (Date.now() < root._bokeh_timeout) {
+      setTimeout(display_loaded, 100)
+    }
+  }
+
+  function run_callbacks() {
+    try {
+      root._bokeh_onload_callbacks.forEach(function(callback) {
+        if (callback != null)
+          callback();
+      });
+    } finally {
+      delete root._bokeh_onload_callbacks
+    }
+    console.debug("Bokeh: all callbacks have finished");
+  }
+
+  function load_libs(css_urls, js_urls, callback) {
+    if (css_urls == null) css_urls = [];
+    if (js_urls == null) js_urls = [];
+
+    root._bokeh_onload_callbacks.push(callback);
+    if (root._bokeh_is_loading > 0) {
+      console.debug("Bokeh: BokehJS is being loaded, scheduling callback at", now());
+      return null;
+    }
+    if (js_urls == null || js_urls.length === 0) {
+      run_callbacks();
+      return null;
+    }
+    console.debug("Bokeh: BokehJS not loaded, scheduling load and callback at", now());
+    root._bokeh_is_loading = css_urls.length + js_urls.length;
+
+    function on_load() {
+      root._bokeh_is_loading--;
+      if (root._bokeh_is_loading === 0) {
+        console.debug("Bokeh: all BokehJS libraries/stylesheets loaded");
+        run_callbacks()
+      }
+    }
+
+    function on_error(url) {
+      console.error("failed to load " + url);
+    }
+
+    for (let i = 0; i < css_urls.length; i++) {
+      const url = css_urls[i];
+      const element = document.createElement("link");
+      element.onload = on_load;
+      element.onerror = on_error.bind(null, url);
+      element.rel = "stylesheet";
+      element.type = "text/css";
+      element.href = url;
+      console.debug("Bokeh: injecting link tag for BokehJS stylesheet: ", url);
+      document.body.appendChild(element);
+    }
+
+    for (let i = 0; i < js_urls.length; i++) {
+      const url = js_urls[i];
+      const element = document.createElement('script');
+      element.onload = on_load;
+      element.onerror = on_error.bind(null, url);
+      element.async = false;
+      element.src = url;
+      console.debug("Bokeh: injecting script tag for BokehJS library: ", url);
+      document.head.appendChild(element);
+    }
+  };
+
+  function inject_raw_css(css) {
+    const element = document.createElement("style");
+    element.appendChild(document.createTextNode(css));
+    document.body.appendChild(element);
+  }
+
+  const js_urls = ["https://cdn.bokeh.org/bokeh/release/bokeh-2.4.3.min.js", "https://cdn.bokeh.org/bokeh/release/bokeh-gl-2.4.3.min.js", "https://cdn.bokeh.org/bokeh/release/bokeh-widgets-2.4.3.min.js", "https://cdn.bokeh.org/bokeh/release/bokeh-tables-2.4.3.min.js", "https://cdn.bokeh.org/bokeh/release/bokeh-mathjax-2.4.3.min.js"];
+  const css_urls = [];
+
+  const inline_js = [    function(Bokeh) {
+      Bokeh.set_log_level("info");
+    },
+function(Bokeh) {
+    }
+  ];
+
+  function run_inline_js() {
+    if (root.Bokeh !== undefined || force === true) {
+          for (let i = 0; i < inline_js.length; i++) {
+      inline_js[i].call(root, root.Bokeh);
+    }
+if (force === true) {
+        display_loaded();
+      }} else if (Date.now() < root._bokeh_timeout) {
+      setTimeout(run_inline_js, 100);
+    } else if (!root._bokeh_failed_load) {
+      console.log("Bokeh: BokehJS failed to load within specified timeout.");
+      root._bokeh_failed_load = true;
+    } else if (force !== true) {
+      const cell = $(document.getElementById("21843")).parents('.cell').data().cell;
+      cell.output_area.append_execute_result(NB_LOAD_WARNING)
+    }
+  }
+
+  if (root._bokeh_is_loading === 0) {
+    console.debug("Bokeh: BokehJS loaded, going straight to plotting");
+    run_inline_js();
+  } else {
+    load_libs(css_urls, js_urls, function() {
+      console.debug("Bokeh: BokehJS plotting callback run at", now());
+      run_inline_js();
+    });
+  }
+}(window));</script><div class="output text_html">
+  <div class="bk-root" id="eb0c00bf-258c-4583-bf01-d40aa6b29be7" data-root-id="21844"></div>
+</div><script type="application/javascript">(function(root) {
+  function embed_document(root) {
+  const docs_json = {"b8624492-7ed8-4ee6-9028-f9637c59c6b0":{"defs":[],"roots":{"references":[{"attributes":{"below":[{"id":"21855"}],"center":[{"id":"21857"},{"id":"21861"}],"height":500,"left":[{"id":"21858"}],"renderers":[{"id":"21868"}],"title":{"id":"21845"},"toolbar":{"id":"21862"},"toolbar_location":"above","width":1000,"x_range":{"id":"21847"},"x_scale":{"id":"21851"},"y_range":{"id":"21849"},"y_scale":{"id":"21853"}},"id":"21844","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"21853","type":"LinearScale"},{"attributes":{},"id":"21859","type":"BasicTicker"},{"attributes":{"axis_label":"% Respondents","axis_label_text_font_style":"bold","coordinates":null,"formatter":{"id":"22305"},"group":null,"major_label_policy":{"id":"22306"},"ticker":{"id":"21859"}},"id":"21858","type":"LinearAxis"},{"attributes":{},"id":"21856","type":"CategoricalTicker"},{"attributes":{},"id":"22309","type":"AllLabels"},{"attributes":{"axis_label":"Provinces","axis_label_text_font_style":"bold","coordinates":null,"formatter":{"id":"22308"},"group":null,"major_label_orientation":45,"major_label_policy":{"id":"22309"},"major_label_text_font_size":"10pt","ticker":{"id":"21856"}},"id":"21855","type":"CategoricalAxis"},{"attributes":{},"id":"22310","type":"UnionRenderers"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"#1f77b4"},"hatch_alpha":{"value":0.2},"line_alpha":{"value":0.2},"line_color":{"value":"#1f77b4"},"top":{"field":"% with CE Access"},"width":{"value":0.5},"x":{"field":"prv_name"}},"id":"21867","type":"VBar"},{"attributes":{"end":100,"start":0},"id":"21849","type":"DataRange1d"},{"attributes":{"axis":{"id":"21858"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"21861","type":"Grid"},{"attributes":{"coordinates":null,"group":null,"text":"% Respondents with Access to Other Cooling Equipment by Province","text_font_size":"18pt"},"id":"21845","type":"Title"},{"attributes":{},"id":"22306","type":"AllLabels"},{"attributes":{},"id":"21851","type":"CategoricalScale"},{"attributes":{"data":{"% with AC Access":{"__ndarray__":"kQ7xKgvtNUAivECrpfpCQNajiBkWgURABu5MSCe0NUB7iHXIfFNDQDtbG+5Uf0BATdRxl+TVQkC4m4Z9NJY+QBAEQRAEQTJAa8FN4CzkQkA10Wns6bdAQPL6tWhGyUhAMtRFEXiqO0BzI6MNClY3QE9b5t08f0FAoVq1T0+7QUBrJS2o9bE+QA==","dtype":"float64","order":"little","shape":[17]},"% with CE Access":{"__ndarray__":"QfMtHB7JV0C2ADIymTFYQCHTpfH4rlVA5F2FEC7dV0DnwURpR9ZXQJORFiNVsVdAdEf2M1UTWEC4uJ2mRAhYQFOxcSALtVdADzSB9akWWECxIJ+j99ZXQEVaTvuoBFhAHunayWGMV0D+sfe7bNVXQLRmALc0u1dAaMkBGl4EWECwYIjG9U1XQA==","dtype":"float64","order":"little","shape":[17]},"% without AC Access":{"__ndarray__":"jU1aODSCU0AmDuE/UwBPQBqh6uI8uklAycCdCemEU0BmXIB9OV5OQPm4nYa0qFBAyTKCCaYYT0DdT+MF7hhRQFjq+R1/aVRAfAHqqw8YT0BIYJDAw5xQQBNcDR+iw0hAEae/p6wAUkCc32pJUClTQGYgDW5WFlBAgWvHHVwgUEBN7DKKO9JQQA==","dtype":"float64","order":"little","shape":[17]},"% without CE Access":{"__ndarray__":"VXGMT11IE0DNjdxraHwJQG/1PMkI6xZAWfpKNTNXEUBWMAknQiIQQGpL/2NdchNA0IJ3kAN+DEBdwufUz8YGQIWghxlQSxRAn6xVE4ruDEA2CDbL7B4SQLgnahJpOQhAtgemoYnrFUCqZ78NYZYSQKB1/l8CrBFAJO0JdLU0D0AUyrXcBgwTQA==","dtype":"float64","order":"little","shape":[17]},"AC_Access":[71959,45420,36288,16311,28375,115910,34524,31252,8786,50116,47924,11247,46941,33004,27913,4573,182898],"Cooling_Equipment_Access":[312249,115799,76750,71738,69996,332928,88257,98220,45643,127807,136675,21797,159819,134831,75717,12388,555443],"No_AC_Access":[256102,74191,45532,58677,44587,234091,56997,69877,39299,82488,95240,11237,122181,108399,51328,8318,400919],"No_Cooling_Equipment_Access":[15821,3812,5070,3258,2961,17079,3264,2909,2442,4797,6493,687,9298,6572,3524,503,28373],"Unknown_AC":[130,47,6669,165,449,1297,125,1046,47,39,163,204,549,26,524,4,12036],"Unknown_CE":[121,47,6669,157,454,1291,125,1046,47,39,159,204,554,26,524,4,12037],"index":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],"prv_name":["City Of Caloocan","City Of Las Pi\u00f1as","City Of Makati","City Of Malabon","City Of Mandaluyong","City Of Manila","City Of Marikina","City Of Muntinlupa","City Of Navotas","City Of Para\u00f1aque","City Of Pasig","City Of San Juan","City Of Taguig","City Of Valenzuela","Pasay City","Pateros","Quezon City"],"total_AC":[328191,119658,88489,75153,73411,351298,91646,102175,48132,132643,143327,22688,169671,141429,79765,12895,595853],"total_CE":[328191,119658,88489,75153,73411,351298,91646,102175,48132,132643,143327,22688,169671,141429,79765,12895,595853]},"selected":{"id":"22311"},"selection_policy":{"id":"22310"}},"id":"21863","type":"ColumnDataSource"},{"attributes":{},"id":"21862","type":"Toolbar"},{"attributes":{"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"top":{"field":"% with CE Access"},"width":{"value":0.5},"x":{"field":"prv_name"}},"id":"21865","type":"VBar"},{"attributes":{},"id":"22311","type":"Selection"},{"attributes":{},"id":"22305","type":"BasicTickFormatter"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"hatch_alpha":{"value":0.1},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"% with CE Access"},"width":{"value":0.5},"x":{"field":"prv_name"}},"id":"21866","type":"VBar"},{"attributes":{},"id":"22308","type":"CategoricalTickFormatter"},{"attributes":{"axis":{"id":"21855"},"coordinates":null,"group":null,"ticker":null},"id":"21857","type":"Grid"},{"attributes":{"coordinates":null,"data_source":{"id":"21863"},"glyph":{"id":"21865"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"21867"},"nonselection_glyph":{"id":"21866"},"view":{"id":"21869"}},"id":"21868","type":"GlyphRenderer"},{"attributes":{"source":{"id":"21863"}},"id":"21869","type":"CDSView"},{"attributes":{"factors":["City Of Caloocan","City Of Las Pi\u00f1as","City Of Makati","City Of Malabon","City Of Mandaluyong","City Of Manila","City Of Marikina","City Of Muntinlupa","City Of Navotas","City Of Para\u00f1aque","City Of Pasig","City Of San Juan","City Of Taguig","City Of Valenzuela","Pasay City","Pateros","Quezon City"]},"id":"21847","type":"FactorRange"}],"root_ids":["21844"]},"title":"Bokeh Application","version":"2.4.3"}};
+  const render_items = [{"docid":"b8624492-7ed8-4ee6-9028-f9637c59c6b0","root_ids":["21844"],"roots":{"21844":"eb0c00bf-258c-4583-bf01-d40aa6b29be7"}}];
+  root.Bokeh.embed.embed_items_notebook(docs_json, render_items);
+  }
+  if (root.Bokeh !== undefined) {
+    embed_document(root);
+  } else {
+    let attempts = 0;
+    const timer = setInterval(function(root) {
+      if (root.Bokeh !== undefined) {
+        clearInterval(timer);
+        embed_document(root);
+      } else {
+        attempts++;
+        if (attempts > 100) {
+          clearInterval(timer);
+          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+        }
+      }
+    }, 10, root)
+  }
+})(window);</script></div>
+</div>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./notebooks/socio-economic-indicators"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../measuring-heatwaves/heatwaves-in-philippines.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Understanding Impacts of Excess Heat in Filipino cities</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../air-pollution/air-pollution.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Air Pollution in Manila</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data">Data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#description-of-the-census-data">Description of the Census Data</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By World Bank Data Lab
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  </div>
+  
+  <div class="footer-item">
+    <p class="last-updated">
+  Last updated on Mar 17, 2024.
+  <br/>
+</p>
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <div>
+ Country borders or names do not necessarily reflect the World Bank Group’s official position. All maps are for illustrative purposes and do not imply the expression of any opinion on the part of the World Bank, concerning the legal status of any country or territory or concerning the delimitation of frontiers or boundaries
+</div>
+<div>
+    <b>All content (unless otherwise specified) is subject to the <a href="https://www.mozilla.org/en-US/MPL">Mozilla Public License.</a></b>
+</div>
+
+</div>
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

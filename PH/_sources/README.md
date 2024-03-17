@@ -1,0 +1,36 @@
+# Understanding Impacts of Excess Heat in Filipino cities 
+
+
+The Development Objective is to empower urban Philippines Local Government Units (LGUs) to take preventative and real-time action to mitigate the impacts of heatwaves. This will occur through the provision of more timely and granular data products that reveal localized occurrences of heatwaves and their impacts on human health and urban economies. These data products will be an input to the GeoRiskPH and PlanSmart Planning tool developed under the Philippines Disaster Risk Management and Climate Development Policy Loan with a Catastrophe Deferred-Drawdown Option (P180585). Specifically, this data product will expand the multi-hazard information in the GeoRiskPH and PlanSmart platforms to include heat, so that LGUs can integrate spatial heat risk information in their Comprehensive Land Use Planning (CLUP). 
+
+Until now, cities have been challenged to address heatwaves, because the data and expertise needed to mitigate impacts are typically scattered across many departments. There is also much difficulty in monitoring the effect of existing policies, which the World Bank’s Climate report on the Philippines recommended as a pillar to future sustainability work and accountability.1 To overcome this barrier, as part of the World Bank’s Technical Deep Dive on Urban Heat (April 24-28, 2023), Filipino authorities have requested support on better measurement of urban heatwaves and their impacts. To meet this demand-driven request, the project team would facilitate access to heat risk and vulnerability information by creating a Data Product for select cities in of the Philippines. Through this public data good, Filipino LGU authorities will be able to identify investments and policy interventions that are critical to alleviate impact from excess heat in specific barangays of their cities. The successful interventions can then be scaled to build the resilience of the city. The Data Product will be designed and validated with inputs from local data collection drives and stakeholder participation to ensure inclusive design and participation. The roll out of the Data product will happen through training sessions for the LGU authorities who can then use the insights from this tool to inform policy interventions on a regular basis.  
+
+## Components of the project
+
+### Data Product Creation: Geospatial excess heat vulnerability mapping as an input to GeoRiskPH and PlanSmart planning tools, an indicator of P180585. 
+
+This Data Product will act as an input to the indicators developed in Pillar B: Strengthening the Resilience of the Human Settlements System of P180585. Specifically, the output will provide the heat risk information for:  
+
+Results Indicator B1: Disaster and climate resilience measures are integrated in land use planning to guide development, using a risk-informed and evidence-based platform.  
+
+The Data Product will be developed and improved in phases in consultation with various stakeholders. The first phase, as part of this grant funding, will include insights, methodologies, and creation of spatial data that LGUs can use to assess localized impact of heatwaves on health and economy in Filipino cities.  
+
+The Data Product will consist of foundational datasets that can be shared across departmental units for comparison of results across teams. Additionally, it will include indicators that LGUs can use to observe impacts in Barangays within cities.  
+
+**Foundational datasets**: These datasets form the underlying information that will remain common across all subsequent analyses conducted by different departmental units in an LGU, and CSOs who contribute to and use the product.  
+
+Historical and hyperlocal weather data: Weather data will be collected from openly available sources, high-resolution private sector data sources, and data from The Philippine Atmospheric, Geophysical and Astronomical Services Administration (PAGASA). This will provide historic data at low resolution and daily data at high granularity (~5km grids) allowing for both insights to be used in risk informed decision-making processes and the development of CLUPs.  
+ 
+**Socio-demographic indicators and spending**: Income, health and demographic data from the census of the Philippines, socio demographic data at high granularity from private sector data sources and spending data from crowdsourced surveys will be used to identify the areas in Filipino cities that have a systemic risk which makes them less capable of handling new stresses such as excess heat.5 
+
+**Historic Heatwave Mapping**: Using historic weather data, historic heatwave days in the Filipino cities will be identified. The team will use multiple definitions of a heatwave6 – definition from the WMO,7 Heat Index during the day and Heat Index during the night. Understanding nighttime HI is important because it impacts the effects of the heatwave, as evenings are usually a time to cool down. When that doesn’t happen, people become more susceptible to heat and mortality rises.8 This is to have a standard set of days, across departmental units, during which impacts are assessed and to identify areas which were affected by multiple heatwaves.  
+
+**Indicators to measure vulnerability to heat**: Based on the foundational datasets, additional indicators and data will be identified to visualize the health vulnerability in barangays within a city.  
+
+**Understanding change in air quality during excess heat days**: Air Quality gets progressively worse on hot days which leads to respiratory illnesses in people.9,10 Given the complex relationship between heat and health,11 air quality is used as one of the proxies to measure health vulnerability to heat. Heatwave days will be overlaid with air quality index data available at granular levels. The data will be obtained from multiple private sector sources and the local government. The data will be compared to obtain insights about worsening air quality in specific Barangays in a city.  
+
+**Change in movement to places of interest**: Another proxy for vulnerability is using change in movement of people on days of excess heat. The team will assess how heat impacts change movement to hospitals, schools, construction sites, manufacturing units and other places of interest identified through conversation with the LGU. The movement data will be obtained through GPS location data provided by private sector companies such as Mapbox and Veraset. The team undertook a similar analysis to assess the impacts of the earthquake on the Turkish economy. The results of this can be found here - https://datapartnership.org/turkiye-earthquake-impact/notebooks/mobility/activity.html. Points of Interest data will be obtained from the LGUs and Open Data sources such as OpenStreetMaps. It is noted that the cost of this analysis is contingent  on negotiated final price of data and the time period length covered by the analysis. If the negotiated price exceeds the grant budget, then this indicator would be prepared for Phase II of the grant project.   
+
+## License
+
+This projects is licensed under the [**Mozilla Public License**](https://opensource.org/license/mpl-2-0/) - see the [LICENSE](LICENSE) file for details.

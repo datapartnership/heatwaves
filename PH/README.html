@@ -1,0 +1,565 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Understanding Impacts of Excess Heat in Filipino cities</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'README';</script>
+    <link rel="canonical" href="https://datapartnership.github.io/heatwaves/PH/README.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Understanding Impacts of Excess Heat in Filipino cities" href="notebooks/measuring-heatwaves/heatwaves-in-philippines.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+    <meta name="docbuild:last-update" content="Mar 17, 2024"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="#">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt=" - Home"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt=" - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1 current active">
+                <a class="reference internal" href="#">
+                    Understanding Impacts of Excess Heat in Filipino cities
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Heatwaves in the Philippines</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="notebooks/measuring-heatwaves/heatwaves-in-philippines.html">Understanding Impacts of Excess Heat in Filipino cities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/socio-economic-indicators/census.html">Access to Cooling in NCR</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks/air-pollution/air-pollution.html">Air Pollution in Manila</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/datapartnership/heatwaves" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/datapartnership/heatwaves/edit/main/README.md" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/datapartnership/heatwaves/issues/new?title=Issue%20on%20page%20%2FREADME.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/README.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Understanding Impacts of Excess Heat in Filipino cities</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#components-of-the-project">Components of the project</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-product-creation-geospatial-excess-heat-vulnerability-mapping-as-an-input-to-georiskph-and-plansmart-planning-tools-an-indicator-of-p180585">Data Product Creation: Geospatial excess heat vulnerability mapping as an input to GeoRiskPH and PlanSmart planning tools, an indicator of P180585.</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#license">License</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="understanding-impacts-of-excess-heat-in-filipino-cities">
+<h1>Understanding Impacts of Excess Heat in Filipino cities<a class="headerlink" href="#understanding-impacts-of-excess-heat-in-filipino-cities" title="Permalink to this heading">#</a></h1>
+<p>The Development Objective is to empower urban Philippines Local Government Units (LGUs) to take preventative and real-time action to mitigate the impacts of heatwaves. This will occur through the provision of more timely and granular data products that reveal localized occurrences of heatwaves and their impacts on human health and urban economies. These data products will be an input to the GeoRiskPH and PlanSmart Planning tool developed under the Philippines Disaster Risk Management and Climate Development Policy Loan with a Catastrophe Deferred-Drawdown Option (P180585). Specifically, this data product will expand the multi-hazard information in the GeoRiskPH and PlanSmart platforms to include heat, so that LGUs can integrate spatial heat risk information in their Comprehensive Land Use Planning (CLUP).</p>
+<p>Until now, cities have been challenged to address heatwaves, because the data and expertise needed to mitigate impacts are typically scattered across many departments. There is also much difficulty in monitoring the effect of existing policies, which the World Bank’s Climate report on the Philippines recommended as a pillar to future sustainability work and accountability.1 To overcome this barrier, as part of the World Bank’s Technical Deep Dive on Urban Heat (April 24-28, 2023), Filipino authorities have requested support on better measurement of urban heatwaves and their impacts. To meet this demand-driven request, the project team would facilitate access to heat risk and vulnerability information by creating a Data Product for select cities in of the Philippines. Through this public data good, Filipino LGU authorities will be able to identify investments and policy interventions that are critical to alleviate impact from excess heat in specific barangays of their cities. The successful interventions can then be scaled to build the resilience of the city. The Data Product will be designed and validated with inputs from local data collection drives and stakeholder participation to ensure inclusive design and participation. The roll out of the Data product will happen through training sessions for the LGU authorities who can then use the insights from this tool to inform policy interventions on a regular basis.</p>
+<section id="components-of-the-project">
+<h2>Components of the project<a class="headerlink" href="#components-of-the-project" title="Permalink to this heading">#</a></h2>
+<section id="data-product-creation-geospatial-excess-heat-vulnerability-mapping-as-an-input-to-georiskph-and-plansmart-planning-tools-an-indicator-of-p180585">
+<h3>Data Product Creation: Geospatial excess heat vulnerability mapping as an input to GeoRiskPH and PlanSmart planning tools, an indicator of P180585.<a class="headerlink" href="#data-product-creation-geospatial-excess-heat-vulnerability-mapping-as-an-input-to-georiskph-and-plansmart-planning-tools-an-indicator-of-p180585" title="Permalink to this heading">#</a></h3>
+<p>This Data Product will act as an input to the indicators developed in Pillar B: Strengthening the Resilience of the Human Settlements System of P180585. Specifically, the output will provide the heat risk information for:</p>
+<p>Results Indicator B1: Disaster and climate resilience measures are integrated in land use planning to guide development, using a risk-informed and evidence-based platform.</p>
+<p>The Data Product will be developed and improved in phases in consultation with various stakeholders. The first phase, as part of this grant funding, will include insights, methodologies, and creation of spatial data that LGUs can use to assess localized impact of heatwaves on health and economy in Filipino cities.</p>
+<p>The Data Product will consist of foundational datasets that can be shared across departmental units for comparison of results across teams. Additionally, it will include indicators that LGUs can use to observe impacts in Barangays within cities.</p>
+<p><strong>Foundational datasets</strong>: These datasets form the underlying information that will remain common across all subsequent analyses conducted by different departmental units in an LGU, and CSOs who contribute to and use the product.</p>
+<p>Historical and hyperlocal weather data: Weather data will be collected from openly available sources, high-resolution private sector data sources, and data from The Philippine Atmospheric, Geophysical and Astronomical Services Administration (PAGASA). This will provide historic data at low resolution and daily data at high granularity (~5km grids) allowing for both insights to be used in risk informed decision-making processes and the development of CLUPs.</p>
+<p><strong>Socio-demographic indicators and spending</strong>: Income, health and demographic data from the census of the Philippines, socio demographic data at high granularity from private sector data sources and spending data from crowdsourced surveys will be used to identify the areas in Filipino cities that have a systemic risk which makes them less capable of handling new stresses such as excess heat.5</p>
+<p><strong>Historic Heatwave Mapping</strong>: Using historic weather data, historic heatwave days in the Filipino cities will be identified. The team will use multiple definitions of a heatwave6 – definition from the WMO,7 Heat Index during the day and Heat Index during the night. Understanding nighttime HI is important because it impacts the effects of the heatwave, as evenings are usually a time to cool down. When that doesn’t happen, people become more susceptible to heat and mortality rises.8 This is to have a standard set of days, across departmental units, during which impacts are assessed and to identify areas which were affected by multiple heatwaves.</p>
+<p><strong>Indicators to measure vulnerability to heat</strong>: Based on the foundational datasets, additional indicators and data will be identified to visualize the health vulnerability in barangays within a city.</p>
+<p><strong>Understanding change in air quality during excess heat days</strong>: Air Quality gets progressively worse on hot days which leads to respiratory illnesses in people.9,10 Given the complex relationship between heat and health,11 air quality is used as one of the proxies to measure health vulnerability to heat. Heatwave days will be overlaid with air quality index data available at granular levels. The data will be obtained from multiple private sector sources and the local government. The data will be compared to obtain insights about worsening air quality in specific Barangays in a city.</p>
+<p><strong>Change in movement to places of interest</strong>: Another proxy for vulnerability is using change in movement of people on days of excess heat. The team will assess how heat impacts change movement to hospitals, schools, construction sites, manufacturing units and other places of interest identified through conversation with the LGU. The movement data will be obtained through GPS location data provided by private sector companies such as Mapbox and Veraset. The team undertook a similar analysis to assess the impacts of the earthquake on the Turkish economy. The results of this can be found here - <a class="reference external" href="https://datapartnership.org/turkiye-earthquake-impact/notebooks/mobility/activity.html">https://datapartnership.org/turkiye-earthquake-impact/notebooks/mobility/activity.html</a>. Points of Interest data will be obtained from the LGUs and Open Data sources such as OpenStreetMaps. It is noted that the cost of this analysis is contingent  on negotiated final price of data and the time period length covered by the analysis. If the negotiated price exceeds the grant budget, then this indicator would be prepared for Phase II of the grant project.</p>
+</section>
+</section>
+<section id="license">
+<h2>License<a class="headerlink" href="#license" title="Permalink to this heading">#</a></h2>
+<p>This projects is licensed under the <a class="reference external" href="https://opensource.org/license/mpl-2-0/"><strong>Mozilla Public License</strong></a> - see the <a class="reference download internal" download="" href="_downloads/9879d6db96fd29134fc802214163b95a/LICENSE"><span class="xref download myst">LICENSE</span></a> file for details.</p>
+</section>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="right-next"
+       href="notebooks/measuring-heatwaves/heatwaves-in-philippines.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Understanding Impacts of Excess Heat in Filipino cities</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#components-of-the-project">Components of the project</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#data-product-creation-geospatial-excess-heat-vulnerability-mapping-as-an-input-to-georiskph-and-plansmart-planning-tools-an-indicator-of-p180585">Data Product Creation: Geospatial excess heat vulnerability mapping as an input to GeoRiskPH and PlanSmart planning tools, an indicator of P180585.</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#license">License</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By World Bank Data Lab
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  </div>
+  
+  <div class="footer-item">
+    <p class="last-updated">
+  Last updated on Mar 17, 2024.
+  <br/>
+</p>
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <div>
+ Country borders or names do not necessarily reflect the World Bank Group’s official position. All maps are for illustrative purposes and do not imply the expression of any opinion on the part of the World Bank, concerning the legal status of any country or territory or concerning the delimitation of frontiers or boundaries
+</div>
+<div>
+    <b>All content (unless otherwise specified) is subject to the <a href="https://www.mozilla.org/en-US/MPL">Mozilla Public License.</a></b>
+</div>
+
+</div>
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
