@@ -1,0 +1,5625 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2024-02-25T02:40:46Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/84614",
+        "addr:city": "Quezon City",
+        "addr:street": "Quezon Avenue",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:levels": "4",
+        "capacity:persons": "210",
+        "healthcare": "hospital",
+        "height": "15",
+        "name": "Lung Center of the Philippines",
+        "operator:type": "government",
+        "ref:doh": "6028",
+        "type": "multipolygon",
+        "wikidata": "Q6704245",
+        "wikipedia": "en:Lung Center of the Philippines",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0458555,
+          14.6474256
+        ]
+      },
+      "id": "relation/84614"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/5768040",
+        "addr:city": "Quezon City",
+        "addr:street": "Laurel Avenue",
+        "addr:street:corner": "Agoncillo",
+        "addr:village": "UP Campus",
+        "amenity": "hospital",
+        "building": "hospital",
+        "healthcare": "hospital",
+        "name": "UP Health Service",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0710495,
+          14.6599078
+        ]
+      },
+      "id": "relation/5768040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/7150661",
+        "addr:city": "Pasig",
+        "addr:place": "Ortigas Center",
+        "addr:postcode": "1604",
+        "addr:street": "Ortigas Avenue",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:levels": "4",
+        "contact:mobile": "09179511161",
+        "contact:phone": "+632 9881000 loc. 6765",
+        "contact:website": "https://www.themedicalcity.com/",
+        "healthcare": "hospital",
+        "healthcare:speciality": "psychiatry",
+        "layer": "3",
+        "name": "The Medical City",
+        "note": "Kenneth Javate, Anna Cruz",
+        "operator": "The Medical City",
+        "operator:type": "private",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0692835,
+          14.5899107
+        ]
+      },
+      "id": "relation/7150661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/8222213",
+        "addr:city": "Manila",
+        "addr:province": "Metro Manila",
+        "addr:street": "Ferdinand Blumentritt",
+        "amenity": "hospital",
+        "capacity:persons": "592",
+        "healthcare": "hospital",
+        "name": "Chinese General Hospital and Medical Center",
+        "operator:type": "private",
+        "ref:doh": "446",
+        "source": "Bing",
+        "type": "multipolygon",
+        "wikidata": "Q5100462",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9878995,
+          14.6260637
+        ]
+      },
+      "id": "relation/8222213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9449209",
+        "addr:city": "Mandaluyong",
+        "addr:postcode": "1553",
+        "addr:province": "Metro Manila",
+        "addr:street": "Nueve de Pebrero Street",
+        "addr:village": "Mauway",
+        "amenity": "hospital",
+        "email": "ncmh.mcc@gmail.com",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "healthcare:speciality": "psychiatry",
+        "name": "National Center for Mental Health",
+        "operator": "Department of Health",
+        "operator:type": "public",
+        "phone": "+632 8531 9001",
+        "previously": "node:255061574",
+        "ref:doh": "7359",
+        "social_facility:for": "mental_health",
+        "type": "multipolygon",
+        "website": "https://www.ncmh.gov.ph/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0409369,
+          14.5816203
+        ]
+      },
+      "id": "relation/9449209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/9935374",
+        "addr:city": "Manila",
+        "addr:province": "Metro Manila",
+        "addr:street": "Lope de Vega",
+        "amenity": "hospital",
+        "name": "Jose Fabella Memorial Hospital",
+        "previously": "node:255057470",
+        "source": "Bing",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9842331,
+          14.6061374
+        ]
+      },
+      "id": "relation/9935374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12235444",
+        "addr:street": "P. Tuazon Boulevard",
+        "alt_name": "PNP Hospital",
+        "amenity": "hospital",
+        "name": "Camp Panopio Hospital",
+        "operator": "Philippine National Police",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0517899,
+          14.6156676
+        ]
+      },
+      "id": "relation/12235444"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12541315",
+        "addr:street": "Dr. Alcalde Jose",
+        "alt_name": "Child's Hope Children's Hospital",
+        "amenity": "hospital",
+        "capacity:persons": "64",
+        "healthcare": "hospital",
+        "name": "Pasig City Children's Hospital",
+        "operator:type": "public",
+        "ref:doh": "29735",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0744395,
+          14.5619526
+        ]
+      },
+      "id": "relation/12541315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12606117",
+        "access": "no",
+        "amenity": "hospital",
+        "description": "quarantine facility",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0640332,
+          14.4917005
+        ]
+      },
+      "id": "relation/12606117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12701266",
+        "amenity": "hospital",
+        "description": "quarantine facility",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9818858,
+          14.5449208
+        ]
+      },
+      "id": "relation/12701266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/13549815",
+        "access": "no",
+        "addr:city": "Parañaque",
+        "addr:street": "New Seaside Drive",
+        "amenity": "hospital",
+        "description": "quarantine facility",
+        "healthcare": "hospital",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9841862,
+          14.5169577
+        ]
+      },
+      "id": "relation/13549815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14523456",
+        "addr:city": "Quezon City",
+        "addr:housenumber": "264",
+        "addr:street": "E. Rodriguez Sr. Avenue",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "mapillary": "160659545915004",
+        "name": "National Children's Hospital",
+        "type": "multipolygon",
+        "website": "http://nch.doh.gov.ph/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0210943,
+          14.6203355
+        ]
+      },
+      "id": "relation/14523456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14582129",
+        "addr:city": "Quezon City",
+        "addr:street": "Seminary Road",
+        "addr:zip": "1100",
+        "amenity": "hospital",
+        "beds": "250",
+        "contact:phone": "+632 8630800",
+        "healthcare": "hospital",
+        "name": "Quezon City General Hospital",
+        "operator": "Department of Health",
+        "operator:type": "government",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.017926,
+          14.661771
+        ]
+      },
+      "id": "relation/14582129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14604339",
+        "addr:city": "Quezon City",
+        "addr:postcode": "1400",
+        "addr:street": "M. Pascual Street",
+        "amenity": "hospital",
+        "name": "Pascual General Hospital",
+        "previously": "node:255069320",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.009087,
+          14.6670515
+        ]
+      },
+      "id": "relation/14604339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14612224",
+        "addr:city": "Quezon City",
+        "addr:street": "Mindanao Avenue",
+        "amenity": "hospital",
+        "capacity:persons": "100",
+        "healthcare": "hospital",
+        "mapillary": "s3uzWOEeotnt3LyYfwcBLO",
+        "name": "Pacific Global Medical Center",
+        "operator:type": "private",
+        "ref:doh": "29741",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0299162,
+          14.6884568
+        ]
+      },
+      "id": "relation/14612224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14713258",
+        "addr:city": "Quezon City",
+        "addr:street": "General Luis Street",
+        "amenity": "hospital",
+        "mapillary": "729456954920727",
+        "name": "Divine Heart",
+        "previously": "node:9500993920",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0358545,
+          14.722055
+        ]
+      },
+      "id": "relation/14713258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14906319",
+        "addr:city": "Quezon City",
+        "addr:postcode": "1101",
+        "addr:street": "East Avenue",
+        "amenity": "hospital",
+        "capacity:persons": "315",
+        "healthcare": "hospital",
+        "name": "National Kidney and Transplant Institute",
+        "note": "improve hospital compound boundary with better knowledge/imagery",
+        "operator:type": "public",
+        "ref": "1557652",
+        "ref:doh": "1981",
+        "type": "multipolygon",
+        "website": "https://www.nkti.gov.ph/",
+        "wikipedia": "en:National Kidney and Transplant Institute",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0468444,
+          14.6470276
+        ]
+      },
+      "id": "relation/14906319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/14909701",
+        "addr:city": "Caloocan",
+        "addr:housenumber": "1",
+        "addr:street": "Camarin Road",
+        "amenity": "hospital",
+        "beds": "105",
+        "contact:facebook": "camarindoctorshospital",
+        "contact:phone": "+63960 600 2967",
+        "name": "Camarin Doctors Hospital",
+        "type": "multipolygon",
+        "website": "https://camarindoctorshospital.ph",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0401202,
+          14.7535145
+        ]
+      },
+      "id": "relation/14909701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/15877676",
+        "addr:city": "San Juan",
+        "addr:housenumber": "10",
+        "addr:street": "Wilson Street",
+        "amenity": "hospital",
+        "capacity:persons": "245",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "is_in:zip": "1500",
+        "name": "Cardinal Santos Medical Center",
+        "operator:type": "private",
+        "ref:doh": "1919",
+        "short_name": "CSMC",
+        "type": "multipolygon",
+        "wikidata": "Q18397118",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0459708,
+          14.5974317
+        ]
+      },
+      "id": "relation/15877676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16278221",
+        "addr:city": "Valenzuela",
+        "addr:postcode": "1441",
+        "addr:street": "Padrigal Street",
+        "amenity": "hospital",
+        "email": "valgenhosp@yahoo.com",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Valenzuela Medical Center",
+        "old_name": "Valenzuela General Hospital",
+        "operator": "Government",
+        "operator:type": "government",
+        "previously": "node:255068280",
+        "type": "multipolygon",
+        "url": "https://doh.gov.ph/DOH-Hospitals-Directory/VALENZUELA-MEDICAL-CENTER",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9778744,
+          14.6899018
+        ]
+      },
+      "id": "relation/16278221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16771461",
+        "addr:city": "Pasig",
+        "addr:street": "President Quezon Street",
+        "amenity": "hospital",
+        "building": "hospital",
+        "healthcare": "hospital",
+        "name": "Holylife Hospital",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0955339,
+          14.5920244
+        ]
+      },
+      "id": "relation/16771461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/16999339",
+        "addr2:street": "P. Tuazon Boulevard",
+        "addr:street": "Jose P. Rizal Street",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Quirino Memorial Medical Center",
+        "name:abbr": "QMMC",
+        "ref": "DOH000000000007520",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0725718,
+          14.6221742
+        ]
+      },
+      "id": "relation/16999339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/23378684",
+        "addr:city": "Muntinlupa",
+        "addr:street": "Alabang-Zapote Road",
+        "amenity": "hospital",
+        "building": "hospital",
+        "contact:email": "alabangmedicalcenter8@yahoo.com",
+        "contact:phone": "(02)7750275",
+        "mapillary": "919737085535455",
+        "name": "Alabang Medical Center",
+        "operator:type": "private",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0244792,
+          14.4277653
+        ]
+      },
+      "id": "way/23378684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/23378979",
+        "addr:city": "Muntinlupa",
+        "addr:postcode": "1781",
+        "addr:street": "Centennial Lane",
+        "addr:village": "Alabang",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Ospital ng Muntinlupa",
+        "name:abbr": "name",
+        "ref:doh": "3499",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0441701,
+          14.4142507
+        ]
+      },
+      "id": "way/23378979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/23378990",
+        "addr:barangay": "Alabang",
+        "addr:city": "Muntinlupa",
+        "addr:housenumber": "2205",
+        "addr:postcode": "1781",
+        "addr:street": "Civic Drive",
+        "alt_name:en": "AHMC",
+        "amenity": "hospital",
+        "contact:phone": "6593133;+632 7719000 loc 8351;+632 7719000 loc 8154;+632 998964",
+        "healthcare": "hospital",
+        "name": "Asian Hospital and Medical Center",
+        "opening_hours": "Tu 09:30-17:00; Th 13:00-18:00",
+        "operator": "Sampaguita Adapon",
+        "operator:type": "private",
+        "payment:cash": "2500",
+        "phone": "+63 2 8771 9000; +63 2 8876 5739",
+        "ref:doh": "410",
+        "website": "https://www.asianhospital.com/",
+        "wikidata": "Q4806658",
+        "wikipedia": "en:Asian Hospital and Medical Center",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0436117,
+          14.4132052
+        ]
+      },
+      "id": "way/23378990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/25389198",
+        "amenity": "hospital",
+        "name": "Protacio Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9965839,
+          14.5241939
+        ]
+      },
+      "id": "node/25389198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/25795096",
+        "addr:postcode": "1101",
+        "addr:street": "East Avenue",
+        "amenity": "hospital",
+        "building": "hospital",
+        "healthcare": "hospital",
+        "name": "National Kidney and Transplant Institute",
+        "phone": "+63 2 981 0300",
+        "website": "https://www.nkti.gov.ph/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0472489,
+          14.647247
+        ]
+      },
+      "id": "way/25795096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/25943731",
+        "amenity": "hospital",
+        "building": "yes",
+        "emergency": "yes",
+        "name": "Fairview General Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0720252,
+          14.7056728
+        ]
+      },
+      "id": "way/25943731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/28997817",
+        "addr:city": "Makati",
+        "addr:postcode": "1218",
+        "addr:street": "Sampaguita Street",
+        "amenity": "hospital",
+        "capacity:persons": "300",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "ophthalmology;internal;paediatrics;orthopaedics;retina;gynaecology;anaesthetics;surgery;otolaryngology;physiatry;community",
+        "name": "Ospital ng Makati",
+        "operator:type": "public",
+        "ref:doh": "5830",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0618875,
+          14.5464125
+        ]
+      },
+      "id": "way/28997817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/29353952",
+        "addr:city": "Taguig",
+        "addr:postcode": "1634",
+        "addr:street": "32nd Street",
+        "addr:street:corner": "5th Avenue",
+        "amenity": "hospital",
+        "contact": "7829770 loc 5237",
+        "contact:phone": "+63939 9373182;+632 7897700",
+        "healthcare": "hospital",
+        "healthcare:speciality": "psychiatry",
+        "name": "St. Luke's Medical Center Global City",
+        "name:id": "Pusat Medis Santo Lukas",
+        "name:ms": "Pusat Perubatan Santo Lukas",
+        "name:vec": "Sentro Mèdego San Luca",
+        "operator:type": "private",
+        "payment:cash": "4000/initial;3500/succeeding",
+        "ref:doh": "7987",
+        "wikidata": "Q28449124",
+        "wikimedia_commons": "Category:St. Luke's Medical Center (Bonifacio Global City)",
+        "wikipedia": "en:St. Luke's Medical Center – Global City",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0481158,
+          14.5551344
+        ]
+      },
+      "id": "way/29353952"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/32596622",
+        "amenity": "hospital",
+        "building": "yes",
+        "historic:building": "hospital",
+        "name": "Quezon Institute",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0131404,
+          14.617654
+        ]
+      },
+      "id": "way/32596622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/35567304",
+        "addr:city": "San Juan",
+        "addr:postcode": "2514",
+        "addr:province": "Metro Manila",
+        "addr:street": "Aurora Boulevard",
+        "amenity": "hospital",
+        "building": "yes",
+        "capacity:persons": "307",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "University of the East - Ramon Magsaysay Memorial Medical Center",
+        "operator:type": "private",
+        "ref:doh": "5683",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0205766,
+          14.6066567
+        ]
+      },
+      "id": "way/35567304"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/41178726",
+        "addr:city": "Quezon City",
+        "addr:postcode": "1116",
+        "addr:street": "Quirino Highway",
+        "amenity": "hospital",
+        "beds": "30",
+        "mapillary": "754740731906371",
+        "name": "Novaliches District Hospital",
+        "operator": "Quezon City General Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0344079,
+          14.7005625
+        ]
+      },
+      "id": "way/41178726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/46332952",
+        "addr:city": "Quezon City",
+        "addr:postcode": "1117",
+        "addr:street": "Quirino Highway",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "mapillary": "273196031165978",
+        "name": "Novaliches General Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0388551,
+          14.7094982
+        ]
+      },
+      "id": "way/46332952"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/49333995",
+        "addr:city": "Makati",
+        "addr:postcode": "1229",
+        "addr:street": "Amorsolo",
+        "amenity": "hospital",
+        "contact:email": "mmc@makatimed.net.ph",
+        "contact:phone": "+63 2 8888 8999 loc 2357",
+        "contact:website": "https://www.makatimed.net.ph/",
+        "healthcare": "hospital",
+        "healthcare:speciality": "psychiatry",
+        "name": "Makati Medical Center",
+        "name:id": "Pusat Medis Makati",
+        "name:ms": "Pusat Perubatan Makati",
+        "name:vec": "Sentro Mèdego de Macati",
+        "note": "Edgardo Tolentino (8816 7293 loc 2256)",
+        "opening_hours": "24/7",
+        "operator": "Medical Doctors, Inc.",
+        "operator:type": "private",
+        "wikidata": "Q3265086",
+        "wikimedia_commons": "Category:Makati Medical Center",
+        "wikipedia": "en:Makati Medical Center",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.014867,
+          14.5592624
+        ]
+      },
+      "id": "way/49333995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/54025002",
+        "addr:city": "Marikina",
+        "addr:street": "Don Juan Sumulong",
+        "amenity": "hospital",
+        "capacity:persons": "150",
+        "healthcare": "hospital",
+        "name": "Amang Rodriguez Memorial Medical Center",
+        "old_name": "Amang Rodriguez General Hospital",
+        "operator:type": "public",
+        "ref:doh": "3872",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0984798,
+          14.6360951
+        ]
+      },
+      "id": "way/54025002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/69629835",
+        "addr:housenumber": "2772",
+        "addr:street": "Roxas Boulevard",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "is_in:city": "Pasay",
+        "is_in:zip": "1300",
+        "operator:type": "private",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9933493,
+          14.5386217
+        ]
+      },
+      "id": "way/69629835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/72678412",
+        "addr:city": "Muntinlupa",
+        "addr:postcode": "1781",
+        "amenity": "hospital",
+        "contact:phone": "+632 8072628 loc. 332",
+        "healthcare": "hospital",
+        "healthcare:speciality": "covid19_testing_laboratory",
+        "name": "Research Institute for Tropical Medicine",
+        "operator:type": "government",
+        "ref": "UPRI",
+        "ref:doh": "2232",
+        "short_name": "RITM",
+        "website": "http://www.ritm.gov.ph/",
+        "wikidata": "Q7315099",
+        "wikimedia_commons": "Category:Research Institute for Tropical Medicine",
+        "wikipedia": "en:Research Institute for Tropical Medicine",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0369759,
+          14.4099434
+        ]
+      },
+      "id": "way/72678412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/76344014",
+        "addr:city": "Pasig",
+        "addr:housenumber": "425",
+        "addr:province": "Metro Manila",
+        "addr:street": "Pasig Boulevard",
+        "amenity": "hospital",
+        "contact:email": "info@rmc.doh.gov.ph",
+        "contact:phone": "+632 6719740-43 loc. 103;+632 6719616;+63936 1944238;+63932 6019341",
+        "contact:website": "http://www.rmc.doh.gov.ph/",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Rizal Medical Center",
+        "operator:type": "government",
+        "short_name": "RMC",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0661219,
+          14.5639477
+        ]
+      },
+      "id": "way/76344014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79312531",
+        "addr:city": "Pasay",
+        "addr:postcode": "1300",
+        "addr:street": "Padre Burgos Street",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Pasay City General Hospital",
+        "operator": "City of Pasay",
+        "previously": "node:255054661",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0010018,
+          14.5493216
+        ]
+      },
+      "id": "way/79312531"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/82707121",
+        "addr:city": "Mandaluyong",
+        "addr:housenumber": "163",
+        "addr:postcode": "1550",
+        "addr:province": "Metro Manila",
+        "addr:street": "Epifanio De los Santos Avenue (EDSA)",
+        "addr:village": "Highway Hills",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Victor R. Potenciano Medical Center",
+        "name:abbr": "VRP Medical Center;VRPMC",
+        "opening_hours": "24/7",
+        "previously": "node:255064778",
+        "ref:doh": "523",
+        "website": "https://www.vrp.com.ph/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0500201,
+          14.5769897
+        ]
+      },
+      "id": "way/82707121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/83534531",
+        "addr:city": "Las Piñas",
+        "addr:postcode": "1742",
+        "addr:street": "P. Diego Cera Avenue",
+        "amenity": "hospital",
+        "name": "Las Piñas General Hospital & Satellite Trauma Center",
+        "old_name": "Las Piñas Emergency Hospital",
+        "operator": "Department of Health",
+        "operator:type": "public",
+        "ref:doh": "615",
+        "website": "https://lpghstc.doh.gov.ph/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9738077,
+          14.4716361
+        ]
+      },
+      "id": "way/83534531"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/84272189",
+        "addr:city": "Pasay",
+        "addr:housenumber": "1945",
+        "addr:postcode": "1300",
+        "addr:street": "Donada",
+        "amenity": "hospital",
+        "beds": "150",
+        "contact:email": "info@amcmanila.org",
+        "contact:phone": "+632 8525-9192 to 98",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Adventist Medical Center Manila",
+        "ref": "DOH000000000006034",
+        "website": "https://amcmanila.org",
+        "wikidata": "Q6749662",
+        "wikipedia": "en:Adventist Medical Center Manila",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9952875,
+          14.5559964
+        ]
+      },
+      "id": "way/84272189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/85238912",
+        "addr:city": "Quezon City",
+        "addr:postcode": "1100",
+        "addr:street": "V. Luna Road",
+        "alt_name": "AFP Medical Center",
+        "amenity": "hospital",
+        "duplicate": "node:255070475",
+        "healthcare": "hospital",
+        "name": "Armed Forces of the Philippines Medical Center",
+        "operator": "Armed Forces of the Philippines",
+        "operator:type": "military",
+        "wikidata": "Q17013128",
+        "wikimedia_commons": "Category:Armed Forces of the Philippines Medical Center",
+        "wikipedia": "en:Victoriano Luna General Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0520007,
+          14.6348324
+        ]
+      },
+      "id": "way/85238912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/87741356",
+        "addr:city": "Manila",
+        "addr:housenumber": "850",
+        "addr:postcode": "1000",
+        "addr:street": "United Nations Avenue",
+        "addr:street:corner": "General Luna Street",
+        "amenity": "hospital",
+        "contact:facebook": "ManilaMed",
+        "contact:instagram": "manilamed",
+        "email": "customerservice@manilamed.com.ph",
+        "healthcare": "hospital",
+        "name": "Medical Center Manila",
+        "operator": "ManilaMed",
+        "phone": "+63 2 8523 8131",
+        "website": "https://www.manilamed.com.ph/",
+        "wikidata": "Q6806286",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9854136,
+          14.5824217
+        ]
+      },
+      "id": "way/87741356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/89564505",
+        "addr:city": "Manila",
+        "addr:province": "Metro Manila",
+        "addr:street": "Cabildo",
+        "amenity": "hospital",
+        "building": "yes",
+        "building:levels": "3",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "height": "17",
+        "internet_access": "wlan",
+        "name": "AMOSUP Seamen's Hospital",
+        "operator": "Associated Marine Officers and Seamens Union of the Philippines",
+        "operator:type": "private",
+        "ref": "UPRI",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9776456,
+          14.5874859
+        ]
+      },
+      "id": "way/89564505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/90139977",
+        "addr:city": "Manila",
+        "addr:province": "Metro Manila",
+        "addr:street": "Kalaw Avenue",
+        "amenity": "hospital",
+        "contact:email": "info@maniladoctors.com.ph",
+        "contact:phone": "+632 5247376;+632 5580888 loc. 4480;+632 5247376",
+        "healthcare": "hospital",
+        "name": "Manila Doctors Hospital",
+        "operator:type": "private",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9828016,
+          14.5820028
+        ]
+      },
+      "id": "way/90139977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/90316401",
+        "addr:city": "Manila",
+        "addr:postcode": "1000",
+        "addr:province": "Metro Manila",
+        "addr:street": "Taft Avenue",
+        "amenity": "hospital",
+        "barrier": "fence",
+        "contact:phone": "+63 2 3450 0188",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;covid19",
+        "name": "Philippine General Hospital",
+        "name:en": "Philippine General Hospital",
+        "name:tl": "Ospital Heneral ng Pilipinas",
+        "operator": "University of the Philippines Manila",
+        "operator:type": "public",
+        "specialized_education": "special_needs",
+        "wikidata": "Q775409",
+        "wikipedia": "en:Philippine General Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9856636,
+          14.5777703
+        ]
+      },
+      "id": "way/90316401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/91187868",
+        "addr:city": "Quezon City",
+        "addr:postcode": "1100",
+        "addr:street": "East Avenue",
+        "amenity": "hospital",
+        "capacity:persons": "600",
+        "description": "VAWC",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "East Avenue Medical Center",
+        "operator": "Department of Health",
+        "operator:type": "public",
+        "ref:doh": "540",
+        "short_name": "EAMC",
+        "website": "https://eamc.gov.ph/",
+        "wikidata": "Q28449283",
+        "wikimedia_commons": "Category:East Avenue Medical Center",
+        "wikipedia": "en:East Avenue Medical Center",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0479244,
+          14.6419117
+        ]
+      },
+      "id": "way/91187868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/91187869",
+        "addr:city": "Quezon City",
+        "addr:postcode": "1100",
+        "addr:province": "Metro Manila",
+        "addr:street": "East Avenue",
+        "addr:street:corner": "Matalino Street",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;vaccination",
+        "name": "Philippine Heart Center",
+        "wikidata": "Q2144614",
+        "wikimedia_commons": "Category:Philippine Heart Center",
+        "wikipedia": "en:Philippine Heart Center",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0484175,
+          14.6439166
+        ]
+      },
+      "id": "way/91187869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/91599188",
+        "addr:street": "Commonwealth Avenue",
+        "amenity": "hospital",
+        "building": "hospital",
+        "healthcare": "hospital",
+        "name": "General Malvar Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0726421,
+          14.6675899
+        ]
+      },
+      "id": "way/91599188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/93806644",
+        "addr:barangay": "Project 6",
+        "addr:city": "Quezon City",
+        "addr:postcode": "1100",
+        "addr:street": "North Avenue",
+        "amenity": "hospital",
+        "check_date": "2023-09-16",
+        "description": "VAWC Facility",
+        "name": "Veterans Memorial Medical Center",
+        "ref:doh": "2911",
+        "website": "https://www.vmmc.gov.ph/",
+        "wikipedia": "en:Veterans Memorial Medical Center",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0400526,
+          14.6565115
+        ]
+      },
+      "id": "way/93806644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/96054542",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "New Era General Hospital",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0666863,
+          14.6643312
+        ]
+      },
+      "id": "way/96054542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/96336385",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Jose Fabella Memorial Hospital Annex",
+        "note": "verify hospital boundary",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0435126,
+          14.6469763
+        ]
+      },
+      "id": "way/96336385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/97073768",
+        "amenity": "hospital",
+        "capacity:persons": "700",
+        "name": "Philippine Orthopedic Hospital",
+        "opening_hours": "24/7",
+        "operator": "Department of Health",
+        "operator:type": "public",
+        "phone": "+63 2 711 4276",
+        "ref:doh": "715",
+        "website": "https://poc.doh.gov.ph",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0033559,
+          14.6277917
+        ]
+      },
+      "id": "way/97073768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/102682002",
+        "addr:city": "Quezon City",
+        "addr:housenumber": "11",
+        "addr:postcode": "1113",
+        "addr:street": "Banawe Street",
+        "amenity": "hospital",
+        "capacity:persons": "107",
+        "healthcare": "hospital",
+        "mapillary": "1032323741036757",
+        "name": "Fe Del Mundo Medical Center",
+        "old_name": "Children's Medical Center",
+        "operator:type": "private",
+        "previously": "node:255064314",
+        "ref:doh": "493",
+        "strap_line": "A Mount Grace Hospital",
+        "website": "https://www.fedelmundo.com.ph/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0092169,
+          14.6205993
+        ]
+      },
+      "id": "way/102682002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/104371863",
+        "addr:city": "Marikina",
+        "addr:housenumber": "45",
+        "addr:postcode": "1810",
+        "addr:street": "Bayan-Bayanan Avenue",
+        "addr:village": "Marikina Heights",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:levels": "5",
+        "healthcare": "hospital",
+        "name": "Garcia General Hospital",
+        "operator:type": "private",
+        "ref:doh": "7507",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1109386,
+          14.6512201
+        ]
+      },
+      "id": "way/104371863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/110702706",
+        "addr:city": "Las Piñas",
+        "addr:street": "CAA Avenue",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Las Piñas Doctors Hospital",
+        "previously": "node:354426861",
+        "ref:doh": "614",
+        "website": "http://www.laspinasdoctorshospitalinc.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9938879,
+          14.4556192
+        ]
+      },
+      "id": "way/110702706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/112176621",
+        "addr:city": "Parañaque",
+        "addr:street": "Doctor A. Santos Avenue",
+        "amenity": "hospital",
+        "beds": "56",
+        "contact:facebook": "mcparanaque",
+        "contact:phone": "+63917 811 8094",
+        "emergency": "yes",
+        "name": "Medical Center Parañaque",
+        "operator": "Mount Grace Hospital",
+        "operator:type": "consortium",
+        "previously": "node:255065369",
+        "ref": "DOH000000000000656",
+        "ref:doh": "656",
+        "website": "https://www.medicalcenterparanaque.com",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0334534,
+          14.4583565
+        ]
+      },
+      "id": "way/112176621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/113365744",
+        "addr:city": "Taguig",
+        "addr:province": "Metro Manila",
+        "amenity": "hospital",
+        "building": "hospital",
+        "name": "Fort Bonifacio General Hospital",
+        "name:en": "Fort Bonifacio General Hospital",
+        "previously": "node:1374474705",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.047896,
+          14.5309799
+        ]
+      },
+      "id": "way/113365744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/113550717",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0458929,
+          14.6748811
+        ]
+      },
+      "id": "way/113550717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/115222320",
+        "addr:city": "Manila",
+        "addr:province": "Metro Manila",
+        "addr:street": "Rizal Avenue",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Jose R. Reyes Memorial Medical Center",
+        "website": "https://jrrmmc.gov.ph/",
+        "wikidata": "Q6293769",
+        "wikimedia_commons": "Category:José R. Reyes Memorial Medical Center",
+        "wikipedia": "en:José R. Reyes Memorial Medical Center",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9819216,
+          14.614115
+        ]
+      },
+      "id": "way/115222320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/116914958",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "EAMC OPD",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0477716,
+          14.6427269
+        ]
+      },
+      "id": "way/116914958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/116954572",
+        "addr:city": "Quezon City",
+        "addr:postcode": "1103",
+        "addr:street": "Kamuning Road",
+        "amenity": "hospital",
+        "building": "yes",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;paediatrics;maternity",
+        "name": "Dr. Jesus C. Delgado Memorial Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0347676,
+          14.6277829
+        ]
+      },
+      "id": "way/116954572"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117630731",
+        "addr:city": "Marikina",
+        "addr:housenumber": "32",
+        "addr:street": "B. Sta. Ana",
+        "addr:village": "San Roque",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "Saint Anthony Medical Center",
+        "operator": "private",
+        "ref:doh": "24432",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1027964,
+          14.6245013
+        ]
+      },
+      "id": "way/117630731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/117750356",
+        "addr:street": "Mindanao Avenue",
+        "amenity": "hospital",
+        "capacity:persons": "80",
+        "healthcare": "hospital",
+        "name": "Metro North Medical Center and Hospital",
+        "operator:type": "private",
+        "previously": "node:1848281233",
+        "ref:doh": "30973",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0336488,
+          14.6688986
+        ]
+      },
+      "id": "way/117750356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/120779195",
+        "addr:city": "Marikina",
+        "addr:street": "Katipunan",
+        "addr:village": "Concepcion Dos",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "SDS Medical Center",
+        "operator:type": "private",
+        "ref:doh": "5470",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1100622,
+          14.6393861
+        ]
+      },
+      "id": "way/120779195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/121189960",
+        "addr:city": "Marikina",
+        "addr:housenumber": "108",
+        "addr:street": "General Ordonez",
+        "addr:village": "Concepcion II",
+        "amenity": "hospital",
+        "building": "yes",
+        "dohcode": "DOH000000000001794",
+        "healthcare": "hospital",
+        "name": "San Ramon Hospital",
+        "operator:type": "private",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1172466,
+          14.6441363
+        ]
+      },
+      "id": "way/121189960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/122383431",
+        "addr:city": "Manila",
+        "addr:postcode": "1004",
+        "addr:street": "President Quirino Avenue",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ospital ng Maynila",
+        "previously": "node:255064109",
+        "wikipedia": "en:Ospital ng Maynila Medical Center",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9864434,
+          14.5639015
+        ]
+      },
+      "id": "way/122383431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/123669713",
+        "addr:city": "Pasig",
+        "addr:province": "Metro Manila",
+        "addr:street": "Ortigas Avenue Extension",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Mission Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0975134,
+          14.589917
+        ]
+      },
+      "id": "way/123669713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/127202854",
+        "addr:city": "Manila",
+        "addr:province": "Metro Manila",
+        "addr:street": "General Geronimo Street",
+        "amenity": "hospital",
+        "name": "Ospital ng Sampaloc",
+        "previously": "node:255060154",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9967184,
+          14.6078415
+        ]
+      },
+      "id": "way/127202854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/131706185",
+        "addr:city": "Manila",
+        "addr:postcode": "1016",
+        "addr:province": "Metro Manila",
+        "addr:street": "P. Sanchez Street",
+        "alt_name": "Lourdes Hospital",
+        "amenity": "hospital",
+        "name": "Our Lady of Lourdes Hospital",
+        "name:etymology": "Our Lady of Lourdes",
+        "name:etymology:wikidata": "Q21532387",
+        "name:etymology:wikipedia": "en:Our Lady of Lourdes",
+        "previously": "node:255062058",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0224475,
+          14.5949309
+        ]
+      },
+      "id": "way/131706185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/134643140",
+        "addr:city": "Valenzuela",
+        "addr:street": "MacArthur Highway",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Calalang General Hospital",
+        "operator:type": "private",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9825327,
+          14.6726857
+        ]
+      },
+      "id": "way/134643140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/136816020",
+        "addr:street": "Segundo Avenue",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "CGEA Station Hospital",
+        "name:en": "Camp General Emilio Aguinaldo Station Hospital",
+        "opening_hours": "24/7",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0641162,
+          14.6124535
+        ]
+      },
+      "id": "way/136816020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/145083991",
+        "addr:city": "Taguig",
+        "addr:street": "East Service Road",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Taguig-Pateros District Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0342461,
+          14.5108311
+        ]
+      },
+      "id": "way/145083991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/150867912",
+        "addr:city": "San Juan",
+        "addr:postcode": "1500",
+        "amenity": "hospital",
+        "name": "Saint Martin de Porres Charity Hospital",
+        "previously": "node:255066412",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0315455,
+          14.5989567
+        ]
+      },
+      "id": "way/150867912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/154644776",
+        "addr:city": "Makati",
+        "addr:postcode": "1204",
+        "addr:street": "Don Chino Roces Avenue",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "Maria Lourdes Maternity Hospital",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0144972,
+          14.5699376
+        ]
+      },
+      "id": "way/154644776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/155400231",
+        "addr:city": "Quezon City",
+        "addr:housenumber": "201",
+        "addr:postcode": "1113",
+        "addr:street": "E. Rodriguez Sr. Avenue",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "De Los Santos Medical Center",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0175123,
+          14.6202079
+        ]
+      },
+      "id": "way/155400231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/156577552",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Commonwealth Hospital and Medical Center",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0606405,
+          14.7314029
+        ]
+      },
+      "id": "way/156577552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158976838",
+        "addr:city": "Muntinlupa",
+        "addr:housenumber": "38",
+        "addr:postcode": "1772",
+        "addr:street": "National Road",
+        "amenity": "hospital",
+        "capacity:persons": "95",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "landuse": "commercial",
+        "name": "Medical Center Muntinlupa",
+        "opening_hours": "24/7",
+        "operator:type": "private",
+        "ref:doh": "2245",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0451971,
+          14.3949535
+        ]
+      },
+      "id": "way/158976838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/161306364",
+        "addr:city": "Manila",
+        "addr:province": "Metro Manila",
+        "addr:street": "Numancia Street",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Justice Jose Abad Santos Mother and Child Hospital",
+        "previously": "node:1301339064",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9720135,
+          14.5974353
+        ]
+      },
+      "id": "way/161306364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/161306372",
+        "addr2:street": "Morga Street",
+        "addr:city": "Manila",
+        "addr:housenumber": "1221",
+        "addr:province": "Metro Manila",
+        "addr:street": "J. Nolasco Street",
+        "amenity": "hospital",
+        "contact:phone": "+632 2454021 loc 385/412",
+        "healthcare": "hospital",
+        "name": "Mary Johnston Hospital",
+        "previously": "node:255050354",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9661998,
+          14.6090583
+        ]
+      },
+      "id": "way/161306372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/161306530",
+        "addr:city": "Manila",
+        "addr:housenumber": "924",
+        "addr:postcode": "1012",
+        "addr:province": "Metro Manila",
+        "addr:street": "Delpan Street",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Gat Andres Bonifacio Memorial Medical Center",
+        "name:en": "Gat Andres Bonifacio Memorial Medical Center",
+        "name:zh": "盖特·安德烈斯·博尼法西奥纪念医疗中心",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9649043,
+          14.6011023
+        ]
+      },
+      "id": "way/161306530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/162045159",
+        "addr:city": "Marikina",
+        "addr:street": "J.P. Rizal Street",
+        "amenity": "hospital",
+        "building": "hospital",
+        "healthcare": "hospital",
+        "mapillary": "824957971562204",
+        "name": "Saint Victoria Hospital",
+        "name:en": "Saint Victoria Hospital",
+        "operator:type": "private",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.094689,
+          14.6421814
+        ]
+      },
+      "id": "way/162045159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/162639734",
+        "addr:city": "Marikina",
+        "addr:place": "Concepcion Uno",
+        "addr:postcode": "1807",
+        "addr:street": "Bayan-Bayanan Avenue",
+        "amenity": "hospital",
+        "building": "yes",
+        "capacity:persons": "90",
+        "healthcare": "hospital",
+        "name": "St. Vincent Hospital",
+        "operator:type": "private",
+        "ref:doh": "5205",
+        "source": "jklinc",
+        "source:url": "http://www.freewebs.com/phroadguide/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1076272,
+          14.6509537
+        ]
+      },
+      "id": "way/162639734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/172909311",
+        "addr:city": "Las Piñas",
+        "addr:housenumber": "1314",
+        "addr:street": "Marcos Alvarez Avenue",
+        "addr:street:corner": "Mikesell",
+        "amenity": "hospital",
+        "beds": "66",
+        "contact:email": "info@citymed.com.ph",
+        "contact:facebook": "citymedph",
+        "contact:phone": "+63 2 8800 0825;+63 2 8800 2288;+63 2 8800 5524;+63 2 8800 5695",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Las Piñas City Medical Center",
+        "ref": "DOH000000000005710",
+        "smoking": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0035032,
+          14.4296889
+        ]
+      },
+      "id": "way/172909311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/175024244",
+        "addr:city": "Valenzuela",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Fatima University Medical Center",
+        "operator:type": "private",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.980462,
+          14.6780614
+        ]
+      },
+      "id": "way/175024244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/181985244",
+        "addr:city": "Parañaque",
+        "addr:street": "Villamar 1st Street",
+        "amenity": "hospital",
+        "name": "Our Lady of Peace Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9836383,
+          14.4883556
+        ]
+      },
+      "id": "way/181985244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/182920340",
+        "addr:city": "Manila",
+        "addr:province": "Metro Manila",
+        "amenity": "hospital",
+        "name": "Clinica Arellano",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9787306,
+          14.6052264
+        ]
+      },
+      "id": "way/182920340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/182994404",
+        "addr:city": "Manila",
+        "addr:province": "Metro Manila",
+        "amenity": "hospital",
+        "building": "hospital",
+        "capacity:persons": "100",
+        "name": "Mary Chiles General Hospital",
+        "operator:type": "private",
+        "ref:doh": "650",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9899198,
+          14.6031756
+        ]
+      },
+      "id": "way/182994404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/184031593",
+        "addr:city": "Manila",
+        "addr:province": "Metro Manila",
+        "amenity": "hospital",
+        "building": "yes",
+        "building:levels": "3",
+        "name": "De Ocampo Memorial Medical Center",
+        "roof:shape": "gabled",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9996274,
+          14.5998307
+        ]
+      },
+      "id": "way/184031593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/186985338",
+        "addr:city": "Pasig",
+        "addr:province": "Metro Manila",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Saint Therese Doctors Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0855011,
+          14.5766271
+        ]
+      },
+      "id": "way/186985338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/188693881",
+        "addr:city": "Pasig",
+        "addr:province": "Metro Manila",
+        "addr:street": "M. Eusebio Avenue",
+        "amenity": "hospital",
+        "capacity:persons": "200",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "mapillary": "468951121652660",
+        "name": "Pasig City General Hospital",
+        "operator": "City Government of Pasig",
+        "operator:type": "government",
+        "operator:wikidata": "Q1624",
+        "ref": "700",
+        "short_name": "PCGH",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0992271,
+          14.5724278
+        ]
+      },
+      "id": "way/188693881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/193633009",
+        "addr:city": "Quezon City",
+        "addr:postcode": "1104",
+        "addr:street": "Quezon Avenue",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:levels": "7",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Providence Hospital",
+        "phone": "+63 2 558 6999",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0316786,
+          14.6411878
+        ]
+      },
+      "id": "way/193633009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/207162795",
+        "addr:city": "Quezon City",
+        "addr:district": "NCR",
+        "addr:postcode": "1100",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "St. Agnes General Hospital",
+        "source": "jklinc",
+        "source:url": "http://www.freewebs.com/phroadguide/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0171869,
+          14.6471487
+        ]
+      },
+      "id": "way/207162795"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/231404558",
+        "addr2:street": "Senator Miriam P. Defensor-Santiago Avenue",
+        "addr:city": "Quezon City",
+        "addr:postcode": "1100",
+        "addr:street": "Quezon Avenue",
+        "alt_name": "Lungsod ng Kabataan",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Philippine Children's Medical Center",
+        "operator": "Department of Health",
+        "operator:short": "DOH",
+        "operator:type": "government",
+        "operator:wikidata": "Q3545669",
+        "previously": "node:255070235",
+        "short_name": "PCMC",
+        "website": "http://www.pcmc.gov.ph/",
+        "wikidata": "Q56277032",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0414436,
+          14.6475865
+        ]
+      },
+      "id": "way/231404558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/239011136",
+        "addr:city": "Las Piñas",
+        "addr:postcode": "1740",
+        "addr:street": "Alabang-Zapote Road",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "University of Perpetual Help Dalta Medical Center",
+        "ref": "UPRI",
+        "ref:doh": "798",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9856287,
+          14.4482913
+        ]
+      },
+      "id": "way/239011136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/240126491",
+        "addr:housenumber": "46",
+        "addr:street": "Alabang-Zapote Road",
+        "amenity": "hospital",
+        "beds": "101",
+        "building": "hospital",
+        "contact:phone": "+63 0282554802",
+        "mapillary": "506475574476670",
+        "name": "Pamplona Hospital & Medical Center",
+        "ref": "DOH000000000047808",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9687744,
+          14.4628693
+        ]
+      },
+      "id": "way/240126491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/240131999",
+        "addr:city": "Las Piñas",
+        "addr:country": "PH",
+        "addr:postcode": "1740",
+        "addr:street": "Alabang-Zapote Road",
+        "amenity": "hospital",
+        "branch": "Talon",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "mapillary": "1897086363822338",
+        "name": "Alabang Medical Clinic",
+        "ref:doh": "4395",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9969765,
+          14.4428817
+        ]
+      },
+      "id": "way/240131999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/244438634",
+        "addr:city": "Taguig",
+        "addr:street": "Levi B. Mariano Avenue",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "mapillary": "312693576920353",
+        "name": "Medical Center Taguig",
+        "survey:date": "2019-06-23",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0653963,
+          14.5308699
+        ]
+      },
+      "id": "way/244438634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/247636777",
+        "addr:city": "Manila",
+        "addr:street": "Arsenio H. Lacson Avenue",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "University of Santo Tomas Hospital",
+        "name:en": "University of Santo Tomas Hospital",
+        "name:es": "Hospital de la Universidad de Santo Tomás",
+        "previously": "node:1067329215",
+        "wikipedia": "en:University of Santo Tomas Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9901943,
+          14.6112692
+        ]
+      },
+      "id": "way/247636777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/255050207",
+        "amenity": "hospital",
+        "garmin:description": "hospital",
+        "healthcare": "hospital",
+        "is_in:city": "Malabon",
+        "is_in:region": "Ncr",
+        "is_in:zip": "1470",
+        "name": "Ronn Carmel Hospital",
+        "source": "jklinc",
+        "source:url": "http://www.freewebs.com/phroadguide/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9919955,
+          14.6579206
+        ]
+      },
+      "id": "node/255050207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/255051235",
+        "addr:city": "Manila",
+        "addr:postcode": "1015",
+        "addr:province": "Metro Manila",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "UST Hospital Clinical Division",
+        "source": "GPS",
+        "source:name": "jklinc",
+        "source:url": "http://www.freewebs.com/phroadguide/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9898193,
+          14.6122477
+        ]
+      },
+      "id": "node/255051235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/255058913",
+        "amenity": "hospital",
+        "garmin:description": "hospital",
+        "is_in:city": "Valenzuela",
+        "is_in:region": "Ncr",
+        "is_in:zip": "1440",
+        "name": "Lady Of  Lourdes Hospital Of Kaybiga",
+        "source": "jklinc",
+        "source:url": "http://www.freewebs.com/phroadguide/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.007156,
+          14.719531
+        ]
+      },
+      "id": "node/255058913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/255059925",
+        "addr:city": "Quezon City",
+        "addr:postcode": "1100",
+        "addr:province": "Metro Manila",
+        "amenity": "hospital",
+        "name": "Our Lady Of Mercy Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0397952,
+          14.721521
+        ]
+      },
+      "id": "node/255059925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/255060717",
+        "addr:city": "Kalookan",
+        "addr:postcode": "1400",
+        "addr:state": "NCR",
+        "amenity": "hospital",
+        "fixme": "verify location",
+        "garmin:description": "hospital",
+        "healthcare": "hospital",
+        "name": "A. R. Bautista Children And General Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.043441,
+          14.7303
+        ]
+      },
+      "id": "node/255060717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/255060785",
+        "amenity": "hospital",
+        "name": "St. John Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9656248,
+          14.6931601
+        ]
+      },
+      "id": "node/255060785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/255060848",
+        "amenity": "hospital",
+        "garmin:description": "hospital",
+        "is_in:city": "Malabon",
+        "is_in:region": "Ncr",
+        "is_in:zip": "1470",
+        "name": "John-paul Hospital",
+        "source": "jklinc",
+        "source:url": "http://www.freewebs.com/phroadguide/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.991958,
+          14.659791
+        ]
+      },
+      "id": "node/255060848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/255061867",
+        "addr:city": "Quezon City",
+        "addr:postcode": "1118",
+        "addr:street": "Quirino Highway",
+        "amenity": "hospital",
+        "name": "Casual General Hospital",
+        "source": "jklinc",
+        "source:url": "http://www.freewebs.com/phroadguide/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.070637,
+          14.7370013
+        ]
+      },
+      "id": "node/255061867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/255063024",
+        "addr:city": "Quezon City",
+        "addr:postcode": "1100",
+        "addr:province": "Ncr",
+        "amenity": "hospital",
+        "garmin:description": "hospital",
+        "name": "J. P. Sioson General Hospital And Colleges",
+        "source": "jklinc",
+        "source:url": "http://www.freewebs.com/phroadguide/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0250945,
+          14.6599034
+        ]
+      },
+      "id": "node/255063024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/255063134",
+        "amenity": "hospital",
+        "garmin:description": "hospital",
+        "healthcare": "hospital",
+        "is_in:city": "Kalookan",
+        "is_in:region": "Ncr",
+        "is_in:zip": "1400",
+        "name": "Hernandez General Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9838197,
+          14.646813
+        ]
+      },
+      "id": "node/255063134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/255065320",
+        "addr:city": "Quezon City",
+        "addr:housenumber": "6",
+        "addr:street": "Nicanor Ramirez",
+        "amenity": "hospital",
+        "capacity:persons": "100",
+        "name": "United Doctors Medical Center",
+        "operator:type": "private",
+        "ref:doh": "797",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0018723,
+          14.6171582
+        ]
+      },
+      "id": "node/255065320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/255066269",
+        "addr:city": "Manila",
+        "addr:province": "Metro Manila",
+        "amenity": "hospital",
+        "name": "Mt. Carmel Maternity And Children's Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.984481,
+          14.62762
+        ]
+      },
+      "id": "node/255066269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/255066513",
+        "addr:city": "Kalookan",
+        "addr:postcode": "1400",
+        "addr:state": "NCR",
+        "addr:street": "Quirino Highway",
+        "amenity": "hospital",
+        "garmin:description": "hospital",
+        "healthcare": "hospital",
+        "name": "Fairview Polymedic Hospital",
+        "source": "jklinc",
+        "source:url": "http://www.freewebs.com/phroadguide/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.04251,
+          14.729371
+        ]
+      },
+      "id": "node/255066513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/255066691",
+        "amenity": "hospital",
+        "garmin:description": "hospital",
+        "healthcare": "hospital",
+        "is_in:city": "Kalookan",
+        "is_in:region": "Ncr",
+        "is_in:zip": "1400",
+        "name": "Hernandez General Hospital",
+        "source": "jklinc",
+        "source:url": "http://www.freewebs.com/phroadguide/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.989372,
+          14.653471
+        ]
+      },
+      "id": "node/255066691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/255067973",
+        "addr:city": "Pasig",
+        "addr:province": "Metro Manila",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Mother Regina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.085128,
+          14.58352
+        ]
+      },
+      "id": "node/255067973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/255069888",
+        "amenity": "hospital",
+        "garmin:description": "hospital",
+        "is_in:city": "Malabon",
+        "is_in:region": "NCR",
+        "is_in:zip": "3021",
+        "name": "A. P. Cruz Community Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9575002,
+          14.6876655
+        ]
+      },
+      "id": "node/255069888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/255070464",
+        "addr:city": "Quezon City",
+        "addr:postcode": "1100",
+        "addr:province": "Ncr",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "garmin:description": "hospital",
+        "healthcare": "hospital",
+        "name": "Dr. Montano G. Ramos General Hospital",
+        "phone": "+63 289276628",
+        "source": "jklinc;streetlevel imagery",
+        "source:url": "http://www.freewebs.com/phroadguide/",
+        "website": "https://web.facebook.com/dmgrgh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0235618,
+          14.6595215
+        ]
+      },
+      "id": "node/255070464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/255070486",
+        "amenity": "hospital",
+        "garmin:description": "hospital",
+        "is_in:city": "Valenzuela",
+        "is_in:region": "Metro Manila",
+        "is_in:zip": "1440",
+        "name": "Bagbaguin Family Hospital",
+        "source": "jklinc",
+        "source:url": "http://www.freewebs.com/phroadguide/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.005167,
+          14.7187774
+        ]
+      },
+      "id": "node/255070486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/255071046",
+        "addr:city": "Pasig",
+        "addr:province": "Metro Manila",
+        "amenity": "hospital",
+        "name": "Mary's Infant General Hospital, Inc."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.076271,
+          14.55577
+        ]
+      },
+      "id": "node/255071046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/255071554",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "is_in:city": "Malabon",
+        "name": "Pagamutang Bayan Ng Malabon",
+        "source": "jklinc",
+        "source:url": "http://www.freewebs.com/phroadguide/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9627243,
+          14.6552043
+        ]
+      },
+      "id": "node/255071554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/255071671",
+        "amenity": "hospital",
+        "garmin:description": "hospital",
+        "is_in:city": "Malabon",
+        "is_in:region": "Ncr",
+        "is_in:zip": "1470",
+        "name": "Tanchoco Clinic",
+        "source": "jklinc",
+        "source:url": "http://www.freewebs.com/phroadguide/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.943161,
+          14.67563
+        ]
+      },
+      "id": "node/255071671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/255071879",
+        "amenity": "hospital",
+        "garmin:description": "hospital",
+        "healthcare": "hospital",
+        "is_in:city": "Kalookan",
+        "is_in:region": "Ncr",
+        "is_in:zip": "1400",
+        "name": "Our Lady Of Grace Hospital",
+        "source": "Benta Serbisyo",
+        "source:url": "http://www.bentaserbisyo.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.981758,
+          14.64872
+        ]
+      },
+      "id": "node/255071879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/255072452",
+        "amenity": "hospital",
+        "is_in:city": "Valenzuela",
+        "name": "Sanctissimo Rosario General Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9843523,
+          14.6751115
+        ]
+      },
+      "id": "node/255072452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/255989049",
+        "addr:street": "N. Domingo Street",
+        "amenity": "hospital",
+        "amenity:-2012": "townhall",
+        "healthcare": "hospital",
+        "name": "San Juan Medical Center",
+        "old_name": "San Juan del Monte Presidencia;San Juan Municipal Building",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0234751,
+          14.6066054
+        ]
+      },
+      "id": "way/255989049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/255991090",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:part": "yes",
+        "name": "Main Building",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0225611,
+          14.5948789
+        ]
+      },
+      "id": "way/255991090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/256058998",
+        "addr:city": "Marikina",
+        "addr:street": "Toyota Avenue",
+        "addr:village": "Santo Nino",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "VT Maternity Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.09944,
+          14.6371064
+        ]
+      },
+      "id": "way/256058998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/256339755",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "Caloocan City Medical Center South",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9735979,
+          14.6483413
+        ]
+      },
+      "id": "way/256339755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/259579603",
+        "amenity": "hospital",
+        "name": "Golden Acres Doctors' Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.997974,
+          14.4190552
+        ]
+      },
+      "id": "way/259579603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/262308307",
+        "addr:city": "Marikina",
+        "addr:street": "Katipunan",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "is_in:city": "Marikina",
+        "is_in:region": "Ncr",
+        "is_in:zip": "1800",
+        "name": "Jesus Immaculate Concepcion Hospital",
+        "operator:type": "private",
+        "ref:doh": "582",
+        "source": "jklinc",
+        "source:url": "http://www.freewebs.com/phroadguide/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1089582,
+          14.6383662
+        ]
+      },
+      "id": "way/262308307"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/262308308",
+        "addr:city": "Marikina",
+        "addr:postcode": "1800",
+        "addr:street": "Don Juan Sumulong Avenue",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "landuse": "commercial",
+        "name": "Marikina Valley Medical Center",
+        "operator:type": "private",
+        "ref:doh": "648",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1039371,
+          14.634942
+        ]
+      },
+      "id": "way/262308308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/262308309",
+        "addr:city": "Marikina",
+        "addr:housenumber": "192",
+        "addr:street": "A. Bonifacio Avenue",
+        "amenity": "hospital",
+        "is_in:zip": "1800",
+        "name": "Santa Monica Hospital",
+        "ref:doh": "7524",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0863279,
+          14.6338315
+        ]
+      },
+      "id": "way/262308309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/262334715",
+        "addr:city": "Marikina",
+        "addr:housenumber": "582",
+        "addr:street": "J.P. Rizal Street",
+        "amenity": "hospital",
+        "mapillary": "897380047719887",
+        "name": "P. Gonzales Memorial Hospital",
+        "ref:doh": "4582",
+        "survey:date": "2018-09-30",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0984861,
+          14.6491567
+        ]
+      },
+      "id": "way/262334715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/263167706",
+        "addr:city": "Quezon City",
+        "addr:district": "Ncr",
+        "addr:postcode": "1100",
+        "amenity": "hospital",
+        "building": "yes",
+        "garmin:description": "hospital",
+        "healthcare": "hospital",
+        "name": "New York Medical And Surgical Clinic",
+        "source": "jklinc",
+        "source:url": "http://www.freewebs.com/phroadguide/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0511389,
+          14.6267818
+        ]
+      },
+      "id": "way/263167706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/264289095",
+        "addr:street": "F. Salalilla",
+        "amenity": "hospital",
+        "building": "hospital",
+        "healthcare": "hospital",
+        "name": "Villarosa Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0660721,
+          14.6219447
+        ]
+      },
+      "id": "way/264289095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/264694648",
+        "addr:city": "Mandaluyong",
+        "addr:province": "Metro Manila",
+        "addr:street": "Boni Avenue",
+        "addr:street:corner": "Santo Rosario",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Mandaluyong City Medical Center",
+        "operator:type": "public",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0354241,
+          14.5763111
+        ]
+      },
+      "id": "way/264694648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/264694650",
+        "amenity": "hospital",
+        "building": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Mandaluyong City Medial Center",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0354263,
+          14.576312
+        ]
+      },
+      "id": "way/264694650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/265570671",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Air Force General Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0199688,
+          14.5169239
+        ]
+      },
+      "id": "way/265570671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/265574761",
+        "amenity": "hospital",
+        "building": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Manila Central University Hospital",
+        "short_name": "MCU Hospital",
+        "website": "https://www.mcuhospital.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9870998,
+          14.6577421
+        ]
+      },
+      "id": "way/265574761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/265574777",
+        "amenity": "hospital",
+        "building": "yes",
+        "garmin:description": "hospital",
+        "healthcare": "hospital",
+        "is_in:city": "Malabon",
+        "is_in:region": "Ncr",
+        "is_in:zip": "1470",
+        "name": "Manila Central University Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9867239,
+          14.657686
+        ]
+      },
+      "id": "way/265574777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/273216481",
+        "addr:city": "Taguig City",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Cruz-Rabe Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0707218,
+          14.5293323
+        ]
+      },
+      "id": "way/273216481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/273430418",
+        "addr:city": "Parañaque",
+        "amenity": "hospital",
+        "name": "Sta. Rita De Baclaran General Hospital",
+        "source": "jklinc",
+        "source:url": "http://www.freewebs.com/phroadguide/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9958679,
+          14.5299069
+        ]
+      },
+      "id": "way/273430418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/283053426",
+        "addr:city": "Quezon City",
+        "addr:street": "Aurora Boulevard",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:levels": "15",
+        "capacity:persons": "276",
+        "healthcare": "hospital",
+        "height": "56.4",
+        "name": "World Citi Medical Center",
+        "operator:type": "private",
+        "ref:doh": "5107",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0633256,
+          14.6270434
+        ]
+      },
+      "id": "way/283053426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/287975636",
+        "addr:city": "Manila",
+        "addr:province": "Metro Manila",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:levels": "7",
+        "healthcare": "hospital",
+        "name": "Perpetual Help Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9883427,
+          14.6133919
+        ]
+      },
+      "id": "way/287975636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/288185193",
+        "addr:city": "Malabon City",
+        "addr:housenumber": "25",
+        "addr:street": "O. Reyes Street",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "San Lorenzo Ruiz General Hospital",
+        "operator": "Department of Health",
+        "operator:type": "government",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9564069,
+          14.694303
+        ]
+      },
+      "id": "way/288185193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/288588367",
+        "amenity": "hospital",
+        "building": "hospital",
+        "name": "Navotas City Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9458741,
+          14.6601414
+        ]
+      },
+      "id": "way/288588367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/291642917",
+        "addr:street": "Arsenio H. Lacson Avenue",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:levels": "6",
+        "contact:email": "info@hijmc.com",
+        "contact:phone": "+632 7312771 loc. 151",
+        "contact:website": "http://hijmc.com/",
+        "healthcare": "hospital",
+        "name": "Hospital of the Infant Jesus Medical Center",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9892758,
+          14.6140317
+        ]
+      },
+      "id": "way/291642917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/299406484",
+        "addr:street": "Zabarte Road",
+        "amenity": "hospital",
+        "name": "Nodado General Hospital",
+        "ref": "DOH000000000006502",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0474734,
+          14.7382739
+        ]
+      },
+      "id": "way/299406484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/303409437",
+        "addr:city": "Manila",
+        "addr:street": "New Panaderos Street",
+        "amenity": "hospital",
+        "name": "Trinity Woman and Child Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0177123,
+          14.5840942
+        ]
+      },
+      "id": "way/303409437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/303409449",
+        "addr:city": "Manila",
+        "addr:housenumber": "2692",
+        "addr:postcode": "1009",
+        "addr:street": "New Panaderos",
+        "amenity": "hospital",
+        "contact:email": "admin@staanahospital.com",
+        "contact:phone": "+63 2 8516 6151;+63 2 8516 6790",
+        "healthcare": "hospital",
+        "name": "Santa Ana Hospital",
+        "name:en": "Santa Ana Hospital",
+        "operator": "City Government of Manila",
+        "operator:type": "government",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0161561,
+          14.583431
+        ]
+      },
+      "id": "way/303409449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/304117640",
+        "amenity": "hospital",
+        "name": "North Caloocan Doctors Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0846894,
+          14.7660751
+        ]
+      },
+      "id": "way/304117640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/308989457",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Soccoro Clinic",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9905222,
+          14.4980325
+        ]
+      },
+      "id": "way/308989457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/310796627",
+        "addr:city": "Manila",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "St. Francis General Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0039577,
+          14.6089447
+        ]
+      },
+      "id": "way/310796627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/310917384",
+        "addr:city": "Manila",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0036346,
+          14.6088188
+        ]
+      },
+      "id": "way/310917384"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/311349240",
+        "addr:city": "Parañaque",
+        "addr:postcode": "1700",
+        "addr:street": "Doctor A. Santos Avenue",
+        "amenity": "hospital",
+        "name": "Unihealth-Parañaque Hospital and Medical Center",
+        "opening_hours": "24/7",
+        "short_name": "Unihealth-Parañaque",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0195736,
+          14.464435
+        ]
+      },
+      "id": "way/311349240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/312353855",
+        "addr:city": "Caloocan",
+        "addr:street": "A. Mabini Street",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "mapillary": "1036118437262296",
+        "name": "Martinez Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9759068,
+          14.6385559
+        ]
+      },
+      "id": "way/312353855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/312773318",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9575373,
+          14.6491629
+        ]
+      },
+      "id": "way/312773318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/322756911",
+        "addr:city": "Parañaque",
+        "addr:postcode": "1700",
+        "amenity": "hospital",
+        "building": "hospital",
+        "name": "Olivarez General Hospital",
+        "opening_hours": "24/7",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9968948,
+          14.4793126
+        ]
+      },
+      "id": "way/322756911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/332083684",
+        "addr:city": "Manila",
+        "addr:postcode": "1016",
+        "addr:province": "Metro Manila",
+        "amenity": "hospital",
+        "building": "hospital",
+        "name": "Unciano Paramedical General Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0162299,
+          14.6007075
+        ]
+      },
+      "id": "way/332083684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/344562174",
+        "addr:city": "Pasig",
+        "addr:province": "Metro Manila",
+        "amenity": "hospital",
+        "building": "yes",
+        "emergency": "yes",
+        "name": "Javillonar Clinic and Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0784364,
+          14.5654141
+        ]
+      },
+      "id": "way/344562174"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/353969645",
+        "addr:city": "Pasig",
+        "addr:street": "C. Raymundo Avenue",
+        "amenity": "hospital",
+        "building": "hospital",
+        "healthcare": "hospital",
+        "mapillary": "819104685361889",
+        "name": "TriCity Medical Center",
+        "operator": "Peivate",
+        "ref": "UPRI",
+        "survey:date": "2019-05-26",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0853178,
+          14.5757706
+        ]
+      },
+      "id": "way/353969645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/360817932",
+        "addr:city": "Manila",
+        "addr:postcode": "1007",
+        "alt_name": "PSG Station Hospital",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Presidential Security Group Station Hospital",
+        "old_name": "Malacanang Hospital",
+        "operator": "Presidential Security Group Station",
+        "previously": "node:255059072",
+        "ref:doh": "12776",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0006899,
+          14.5937241
+        ]
+      },
+      "id": "way/360817932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/363541233",
+        "addr:city": "Las Piñas",
+        "addr:housenumber": "545 -E",
+        "addr:street": "Alabang-Zapote Road",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Pope John Paul II Hospital and Medical Center",
+        "operator:type": "private",
+        "short_name": "Pope John Paul II Medical Center",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9963635,
+          14.4433115
+        ]
+      },
+      "id": "way/363541233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/372781921",
+        "addr:street": "Ortigas Avenue Extension",
+        "amenity": "hospital",
+        "building": "hospital",
+        "healthcare": "hospital",
+        "name": "Mission Medical Plaza",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0979764,
+          14.5898331
+        ]
+      },
+      "id": "way/372781921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/384932890",
+        "addr:city": "Manila",
+        "addr:postcode": "1003",
+        "addr:province": "Metro Manila",
+        "addr:street": "Quiricada Street",
+        "amenity": "hospital",
+        "capacity:persons": "500",
+        "contact:phone": "+632 7323777",
+        "healthcare": "hospital",
+        "healthcare:speciality": "communicable_diseases;sub-national_laboratory_for_covid19",
+        "name": "San Lazaro Hospital",
+        "operator:type": "government",
+        "ref:doh": "4799",
+        "wikidata": "Q85799468",
+        "wikipedia": "en:San Lazaro Hospital, Manila",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9807571,
+          14.6138284
+        ]
+      },
+      "id": "way/384932890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/384934616",
+        "addr:city": "Pasig City",
+        "addr:housenumber": "116",
+        "addr:postcode": "1600",
+        "addr:province": "Metro Manila",
+        "addr:street": "E. Amang Rodriguez Avenue",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "name": "St. Camillus Medical Center",
+        "operator": "Camillian Fathers",
+        "operator:type": "religious",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0916955,
+          14.6121757
+        ]
+      },
+      "id": "way/384934616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/384934859",
+        "addr:city": "Pasig",
+        "addr:province": "Metro Manila",
+        "addr:street": "Marcos Highway",
+        "addr:village": "Dela Paz",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Salve Regina Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0963566,
+          14.6200201
+        ]
+      },
+      "id": "way/384934859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/392895805",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0280684,
+          14.4405836
+        ]
+      },
+      "id": "way/392895805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/443525352",
+        "addr:city": "Taguig",
+        "addr:postcode": "1633",
+        "addr:street": "Sampaloc Extension",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Recuenco General Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0596548,
+          14.5133234
+        ]
+      },
+      "id": "way/443525352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/477645762",
+        "addr:city": "Marikina",
+        "addr:postcode": "1809",
+        "amenity": "hospital",
+        "building": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "name": "De Guzman Clinic",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.1066938,
+          14.6570412
+        ]
+      },
+      "id": "way/477645762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/486970925",
+        "access": "private",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Philippine National Police General Hospital",
+        "short_name": "PNP General Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0520903,
+          14.6096302
+        ]
+      },
+      "id": "way/486970925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/497953970",
+        "amenity": "hospital",
+        "beds": "35",
+        "contact:phone": "+63289398050 ;+63289610328",
+        "healthcare": "hospital",
+        "name": "Bernardino General Hospital",
+        "ref": "DOH000000000000430",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0466422,
+          14.7401511
+        ]
+      },
+      "id": "way/497953970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/505988905",
+        "addr:city": "Las Piñas",
+        "addr:street": "Marcos Alvarez Avenue",
+        "amenity": "hospital",
+        "building": "hospital",
+        "mapillary": "4925353170911472",
+        "name": "Cabinte Maternity & Children's Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9996462,
+          14.4241601
+        ]
+      },
+      "id": "way/505988905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/506543661",
+        "addr:city": "Manila",
+        "addr:province": "Metro Manila",
+        "addr:street": "Don Quijote",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Saint Jude Hospital and Medical Center",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9893892,
+          14.6157926
+        ]
+      },
+      "id": "way/506543661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/528989939",
+        "amenity": "hospital",
+        "check_date": "2023-11-23",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "internet_access": "no",
+        "name": "Caloocan City North Medical Center",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0502049,
+          14.7561517
+        ]
+      },
+      "id": "way/528989939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/530280724",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Nodado General Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0440578,
+          14.7633043
+        ]
+      },
+      "id": "way/530280724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/534775070",
+        "addr:city": "Caloocan",
+        "addr:place": "Barugo",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "National Mental Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.043062,
+          14.7685928
+        ]
+      },
+      "id": "way/534775070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/534857378",
+        "addr:city": "Calocan",
+        "addr:street": "Saint Joseph Avenue",
+        "alt_name": "Tala Leprosarium",
+        "amenity": "hospital",
+        "contact:phone": "+63 920 982 4758;+63 925 354 7547",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;covid19_referral_hospital",
+        "name": "Doctor Jose N. Rodriguez Memorial Hospital",
+        "note": "COVID-19 referral hospital",
+        "old_name": "Central Luzon Sanitarium",
+        "operator:type": "government",
+        "wikidata": "Q5304213",
+        "wikipedia": "en:Dr. Jose N. Rodriguez Memorial Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0656547,
+          14.766709
+        ]
+      },
+      "id": "way/534857378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/541799981",
+        "addr:street": "Buenamar Street",
+        "amenity": "hospital",
+        "building": "hospital",
+        "healthcare": "hospital",
+        "name": "Hope General Hopital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0390335,
+          14.7193002
+        ]
+      },
+      "id": "way/541799981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/541820647",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "Casaul General Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0205964,
+          14.6793861
+        ]
+      },
+      "id": "way/541820647"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/560063538",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Quezon Institute Compound",
+        "wikidata": "Q28402069",
+        "wikipedia": "en:Quezon Institute",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0123323,
+          14.6164963
+        ]
+      },
+      "id": "way/560063538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/574920880",
+        "amenity": "hospital",
+        "building": "hospital",
+        "name": "Ospital ng Malabon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9505826,
+          14.6571749
+        ]
+      },
+      "id": "way/574920880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/578433431",
+        "addr:city": "Manila",
+        "addr:province": "Metro Manila",
+        "addr:quarter": "Balut",
+        "addr:street": "Honorio Lopez Boulevard",
+        "amenity": "hospital",
+        "contact:phone": "+6399 89446223",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "is_in:suburb": "Tondo",
+        "name": "Tondo Medical Center",
+        "operator:type": "government",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9630702,
+          14.6350222
+        ]
+      },
+      "id": "way/578433431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/591766108",
+        "addr:city": "Quezon City",
+        "addr:street": "Quirino Highway",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "mapillary": "704955914045947",
+        "name": "San Lorenzo Hospital",
+        "name:en": "San Lorenzo Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0691593,
+          14.7357264
+        ]
+      },
+      "id": "way/591766108"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/597000047",
+        "addr:street": "Quirino Highway",
+        "alt_name": "Ann Francis Maternity Hospital",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "mapillary": "0jWk0rG0Tv82fF1RG5ksfi",
+        "name": "Ann Francis Mother & Child Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0312571,
+          14.6943711
+        ]
+      },
+      "id": "node/597000047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/642345632",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "Veterinarians",
+        "name": "Gusi Animal Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0784819,
+          14.70538
+        ]
+      },
+      "id": "way/642345632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/643218009",
+        "addr:city": "Parañaque",
+        "addr:housenumber": "45",
+        "addr:street": "Montclair",
+        "amenity": "hospital",
+        "is_in": "Merville Park Subdivision",
+        "name": "Commcare, Inc."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.023788,
+          14.501349
+        ]
+      },
+      "id": "node/643218009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/658684225",
+        "addr:city": "Valenzuela",
+        "addr:housenumber": "548",
+        "addr:postcode": "1444",
+        "addr:street": "MacArthur Highway",
+        "amenity": "hospital",
+        "email": "info@acemcvalenzuela.com",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "mapillary": "947365572702948",
+        "name": "Allied Care Experts Medical Center Valenzuela",
+        "phone": "366-0000;366-0001;366-0002;366-0003;366-0004;366-0005",
+        "website": "https://acemcvalenzuela.com.ph/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9573336,
+          14.7152551
+        ]
+      },
+      "id": "way/658684225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/704249058",
+        "addr:city": "Quezon City",
+        "addr:housenumber": "251",
+        "addr:street": "Commonwealth Avenue",
+        "amenity": "hospital",
+        "building": "hospital",
+        "healthcare": "hospital",
+        "name": "Diliman Doctors Hospital",
+        "phone": "+6328836900",
+        "ref": "DOH000000000037100",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0760951,
+          14.6683854
+        ]
+      },
+      "id": "way/704249058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/741963839",
+        "addr:city": "Taguig",
+        "addr:province": "Metro Manila",
+        "amenity": "hospital",
+        "name": "Philippine Navy Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0316791,
+          14.5302964
+        ]
+      },
+      "id": "way/741963839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/775154939",
+        "addr:city": "Parañaque",
+        "addr:street": "Quirino Avenue",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ospital ng Parañaque",
+        "name:en": "Parañaque Community Hospital",
+        "name:tl": "Ospital ng Parañaque",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.991147,
+          14.5004367
+        ]
+      },
+      "id": "way/775154939"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/781507514",
+        "addr:city": "Quezon City",
+        "addr:postcode": "1116",
+        "addr:state": "NCR",
+        "addr:street": "Quirino Highway",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "mapillary": "754740731906371",
+        "name": "Bernardino General Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.03485,
+          14.7001955
+        ]
+      },
+      "id": "way/781507514"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/781515671",
+        "addr:city": "Pasig",
+        "addr:street": "Eulogio Amang Rodriquez",
+        "amenity": "hospital",
+        "name": "Pasig Doctors Medical Center",
+        "operator": "Private",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0922559,
+          14.600855
+        ]
+      },
+      "id": "way/781515671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/784480740",
+        "addr:city": "Las Piñas",
+        "addr:housenumber": "130",
+        "addr:street": "Alabang-Zapote Road",
+        "alt_name": "Christ the King Hospital",
+        "amenity": "hospital",
+        "beds": "20",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Christ the King Medical Center",
+        "official_name": "Christ the King Medical Center - Unihealth Las Piñas",
+        "ref:doh": "447",
+        "website": "https://christthekingmed.wixsite.com/ctkmc",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9699947,
+          14.4590494
+        ]
+      },
+      "id": "way/784480740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/784554612",
+        "addr:city": "Quezon City",
+        "addr:postcode": "1126",
+        "addr:street": "Batasan Hills",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Rosario Maclang Bautista General Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0891038,
+          14.686097
+        ]
+      },
+      "id": "way/784554612"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/784855136",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Las Piñas City Health Office",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9828922,
+          14.4501871
+        ]
+      },
+      "id": "way/784855136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/786331536",
+        "addr:city": "Manila",
+        "addr:district": "Pandacan",
+        "addr:housenumber": "2081",
+        "addr:postcode": "1011",
+        "addr:street": "Quirino Avenue",
+        "amenity": "hospital",
+        "building": "hospital",
+        "contact:phone": "+63 2 8521 8777",
+        "healthcare": "hospital",
+        "name": "Ygeia Medical Center, Inc.",
+        "opening_hours": "Mo-Fr 06:00-19:00; Sa 06:00-17:00; Su 07:00-14:00",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0016634,
+          14.5880414
+        ]
+      },
+      "id": "way/786331536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/786370497",
+        "addr:city": "Pasig",
+        "addr:housenumber": "185",
+        "addr:street": "Doctor Sixto Antonio Avenue",
+        "amenity": "hospital",
+        "building": "hospital",
+        "healthcare": "hospital",
+        "name": "Alfonso Specialist Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0846475,
+          14.5901099
+        ]
+      },
+      "id": "way/786370497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/786370974",
+        "addr:city": "Tondo",
+        "addr:housenumber": "1171",
+        "addr:street": "Abad Santos Avenue",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ospital ng Tondo",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9783059,
+          14.6259948
+        ]
+      },
+      "id": "way/786370974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/787782007",
+        "addr:city": "Las Piñas",
+        "addr:street": "BF Resort Drive",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "King of Kings Servant Healer Medical Clinic",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9892829,
+          14.4338707
+        ]
+      },
+      "id": "way/787782007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/796759425",
+        "addr:city": "Caloocan",
+        "addr:street": "Deparo Road",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "mapillary": "305570754676967",
+        "name": "San Lorenzo Hospital",
+        "source": "extrapolation",
+        "source_ref": "https://osm.org/node/8721173508",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0323024,
+          14.7372495
+        ]
+      },
+      "id": "way/796759425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/797785059",
+        "addr:city": "Muntinlupa",
+        "addr:postcode": "1773",
+        "addr:street": "National Road",
+        "amenity": "hospital",
+        "name": "Beato-Cauilan Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0493647,
+          14.3709686
+        ]
+      },
+      "id": "way/797785059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/804161688",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "The Premier Medical Center",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.993132,
+          14.4886435
+        ]
+      },
+      "id": "way/804161688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/806655759",
+        "addr:city": "Manila",
+        "addr:province": "Metro Manila",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Metropolitan Medical Center",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9784805,
+          14.6096026
+        ]
+      },
+      "id": "way/806655759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/836960349",
+        "addr:city": "Quezon City",
+        "addr:housenumber": "278",
+        "addr:postcode": "1112",
+        "addr:street": "E. Rodriguez Sr. Avenue",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "St. Luke's Medical Center",
+        "name:id": "Pusat Medis Santo Lukas",
+        "name:ms": "Pusat Perubatan Santo Lukas",
+        "name:vec": "Sentro Mèdego San Luca",
+        "opening_hours": "24/7",
+        "operator:type": "private",
+        "phone": "+63 2 723 0101",
+        "website": "https://www.stlukes.com.ph/",
+        "wikidata": "Q28449135",
+        "wikimedia_commons": "Category:St. Luke's Medical Center – Quezon City",
+        "wikipedia": "en:St. Luke's Medical Center – Quezon City",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.023504,
+          14.6228823
+        ]
+      },
+      "id": "way/836960349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/847013665",
+        "addr:city": "Quezon City",
+        "addr:postcode": "1117",
+        "addr:street": "F. Salvador Avenue",
+        "amenity": "hospital",
+        "beds": "8",
+        "contact:email": "cruz_dalidahospital@yahoo.com",
+        "contact:facebook": "CruzDalidaHospital",
+        "contact:phone": "+63284174080 ;+63283521849",
+        "description": "This small hospital is located at the second entrance while going to salvador avenue. It is already being upgraded with new facilities. It is also not that high tech as some Hospitals but this place is just a fast emergency hospital center",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "surgery;physiatry;general",
+        "mapillary": "136719802213092",
+        "name": "Cruz-Dalida Hospital",
+        "operator:type": "private",
+        "ref": "DOH000000000000462",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0440229,
+          14.7232932
+        ]
+      },
+      "id": "way/847013665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/920605259",
+        "addr:city": "Valenzuela",
+        "addr:street": "G. Lazaro Street",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Valenzuela City Emergency Hospital",
+        "operator": "Valenzuela City Government",
+        "operator:type": "public",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9582544,
+          14.708795
+        ]
+      },
+      "id": "way/920605259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/923686671",
+        "addr:city": "Quezon City",
+        "addr:housenumber": "141",
+        "addr:postcode": "1100",
+        "addr:street": "Mindanao Avenue",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "mapillary": "471414624070557",
+        "name": "Dr. Montano G. Ramos General Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0320837,
+          14.6705308
+        ]
+      },
+      "id": "way/923686671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/930226857",
+        "amenity": "hospital",
+        "name": "Valenzuela Citicare Medical Center",
+        "operator:type": "private",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9632519,
+          14.6955941
+        ]
+      },
+      "id": "way/930226857"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/933223291",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Capitol Medical Center",
+        "source": "jklinc",
+        "source:url": "http://www.freewebs.com/phroadguide/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.02252,
+          14.6340975
+        ]
+      },
+      "id": "way/933223291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/942891048",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Barangay 174 Health Center and Lying In",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0477456,
+          14.7626442
+        ]
+      },
+      "id": "way/942891048"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/947502886",
+        "addr:city": "Muntinlupa",
+        "addr:postcode": "1781",
+        "addr:street": "A. Bunye Street",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Alabang Medical Clinic",
+        "operator:type": "private",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0511302,
+          14.41977
+        ]
+      },
+      "id": "way/947502886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1023374780",
+        "amenity": "hospital",
+        "building": "hospital",
+        "name": "Vian Family Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9891714,
+          14.6848646
+        ]
+      },
+      "id": "way/1023374780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1041537277",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "St Joseph Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9840561,
+          14.6529685
+        ]
+      },
+      "id": "node/1041537277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1072477745",
+        "alt_name": "ACE Medical Center - Pateros",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "mapillary": "1524880787940803",
+        "name": "Allied Care Experts Medical Center",
+        "previously": "node:5413414532",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0653023,
+          14.5440569
+        ]
+      },
+      "id": "way/1072477745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1117530134",
+        "addr:city": "Caloocan",
+        "addr:street": "Malaria Road",
+        "amenity": "hospital",
+        "mapillary": "345339264198669",
+        "name": "Bermudez Polymedic Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0782804,
+          14.7700948
+        ]
+      },
+      "id": "way/1117530134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1123066928",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "healthcare:speciality": "diagnostic_radiology",
+        "name": "Centralle Medical"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9845103,
+          14.6459906
+        ]
+      },
+      "id": "node/1123066928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1219924267",
+        "addr:city": "Manila",
+        "addr:province": "Metro Manila",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "President Corazon C. Aquino General Hospital",
+        "operator": "City Government of Manila",
+        "operator:type": "government",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9572199,
+          14.5914359
+        ]
+      },
+      "id": "way/1219924267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1232226846",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Malabon Hospital and Medical Center",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9556381,
+          14.6701344
+        ]
+      },
+      "id": "way/1232226846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1243950712",
+        "addr:street": "General Solano Street",
+        "alt_name": "Dr. Eva Macaraeg-Macapagal National Center for Geriatric Health",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "National Center for Geriatric Health",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9911946,
+          14.5917792
+        ]
+      },
+      "id": "way/1243950712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1251014451",
+        "addr:barangay": "Fairview",
+        "addr:city": "Quezon City",
+        "addr:postcode": "1118",
+        "addr:province": "Metro Manila",
+        "addr:street": "Regalado Avenue",
+        "addr:suburb": "Novaliches",
+        "amenity": "hospital",
+        "name": "Far Eastern University - Nicanor Reyes Medical Foundation",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0668998,
+          14.6987835
+        ]
+      },
+      "id": "way/1251014451"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1279209740",
+        "addr:city": "Manila",
+        "addr:province": "Metro Manila",
+        "amenity": "hospital",
+        "name": "Amisola Maternity Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9781047,
+          14.6328532
+        ]
+      },
+      "id": "node/1279209740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1294244416",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Alabang Medical Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0443189,
+          14.3910351
+        ]
+      },
+      "id": "node/1294244416"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1728914761",
+        "addr:city": "Las Piñas",
+        "addr:street": "BF Resort Drive",
+        "amenity": "hospital",
+        "name": "Aesthetic Avenue Medical Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9916161,
+          14.4422175
+        ]
+      },
+      "id": "node/1728914761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1728914773",
+        "addr:city": "Las Piñas",
+        "addr:street": "BF Resort Drive",
+        "amenity": "hospital",
+        "name": "BF Maternity Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9915862,
+          14.4422958
+        ]
+      },
+      "id": "node/1728914773"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1826181619",
+        "addr:city": "Muntinlupa",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Alabang Medical Clinic (Montillano Branch)",
+        "source": "jklinc;survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0499702,
+          14.4192377
+        ]
+      },
+      "id": "node/1826181619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1998698325",
+        "addr:city": "Pasig",
+        "addr:province": "Metro Manila",
+        "addr:street": "M. Suarez Avenue",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Alfonso Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0861052,
+          14.5681954
+        ]
+      },
+      "id": "node/1998698325"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2293161448",
+        "addr:city": "Pasig",
+        "addr:province": "Metro Manila",
+        "addr:street": "F. Legaspi St",
+        "addr:unit": "102-202",
+        "amenity": "hospital",
+        "description": "Medical Laboratory",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "healthcare:speciality": "diagnostic_radiology;radiology",
+        "name": "Hi-Precision Diagnostics",
+        "operator": "Hi-Precision Diagnostics",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.085355,
+          14.5764239
+        ]
+      },
+      "id": "node/2293161448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2565829028",
+        "amenity": "hospital",
+        "name": "Valenzuela City Medical Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9777468,
+          14.6894963
+        ]
+      },
+      "id": "node/2565829028"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4916564521",
+        "addr:street": "Florentino Cayco Street",
+        "amenity": "hospital",
+        "name": "Perpetual Succor Maternity Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9923296,
+          14.6080998
+        ]
+      },
+      "id": "node/4916564521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5746203921",
+        "addr:borough": "Ermita",
+        "addr:city": "Manila",
+        "addr:street": "San Marcelino Street",
+        "amenity": "hospital",
+        "name": "Micah Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.992672,
+          14.5728051
+        ]
+      },
+      "id": "node/5746203921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6011953702",
+        "addr:city": "Manila",
+        "addr:street": "España Boulevard",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Ambulatory CPU Lingap Bata – UST Medical Social Service Dapartment",
+        "operator": "UST"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.990071,
+          14.6115031
+        ]
+      },
+      "id": "node/6011953702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6094516077",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "King of Kings Servant Healer Medical Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9893055,
+          14.433875
+        ]
+      },
+      "id": "node/6094516077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6337144448",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Taguig Doctors Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0610061,
+          14.4788266
+        ]
+      },
+      "id": "node/6337144448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6351453988",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Philippine Medical Tests System",
+        "name:en": "Philippine Medical Tests System"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0246028,
+          14.6358797
+        ]
+      },
+      "id": "node/6351453988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6380993970",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Doctor J. Sabili General Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0578217,
+          14.48889
+        ]
+      },
+      "id": "node/6380993970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7278748585",
+        "addr:city": "Quezon City",
+        "addr:housenumber": "411",
+        "addr:postcode": "1116",
+        "addr:street": "Quirino Highway",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "mapillary": "1190737268022408",
+        "name": "Vian Family Hospital II",
+        "name:en": "Vian Family Hospital II",
+        "operator:type": "private",
+        "phone": "+63 2 7261 3275; +63 2 3454 3433"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.021062,
+          14.682847
+        ]
+      },
+      "id": "node/7278748585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7355043129",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Kaiser Medical Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.013563,
+          14.5576905
+        ]
+      },
+      "id": "node/7355043129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8424682317",
+        "addr:street": "8th Avenue",
+        "amenity": "hospital",
+        "check_date": "2023-11-22",
+        "emergency": "yes",
+        "name": "Our Lady of Grace Hospital",
+        "opening_hours": "24/7",
+        "phone": "+63 283611124",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.981379,
+          14.6488967
+        ]
+      },
+      "id": "node/8424682317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8720820470",
+        "addr:street": "Ramirez Street",
+        "amenity": "hospital",
+        "name": "Queensberry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0396761,
+          14.7238749
+        ]
+      },
+      "id": "node/8720820470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8737517378",
+        "addr:street": "General Luis Street",
+        "amenity": "hospital",
+        "mapillary": "222482612599290",
+        "name": "Our Lady of Lourdes Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0066929,
+          14.719221
+        ]
+      },
+      "id": "node/8737517378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9901197431",
+        "addr:city": "Valenzuela City",
+        "addr:housenumber": "2033",
+        "addr:postcode": "1442",
+        "addr:street": "Santiago Street, Fortune Village 1, Gen. T. De Leon",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Nurse Marco",
+        "source": "gps;osm notes;local knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9857175,
+          14.6903284
+        ]
+      },
+      "id": "node/9901197431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10733933205",
+        "amenity": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9834744,
+          14.4882088
+        ]
+      },
+      "id": "node/10733933205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11082277450",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Unciano Paramedical General Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.016232,
+          14.600722
+        ]
+      },
+      "id": "node/11082277450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11082277451",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "gynaecology;fertility",
+        "name": "Esperanza Health Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0126889,
+          14.600614
+        ]
+      },
+      "id": "node/11082277451"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11082277452",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Our Lady of Lourdes Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0230978,
+          14.5947342
+        ]
+      },
+      "id": "node/11082277452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11167011319",
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.0945893,
+          14.6948708
+        ]
+      },
+      "id": "node/11167011319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11245069637",
+        "amenity": "hospital",
+        "name": "ManilaMed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9853404,
+          14.5825516
+        ]
+      },
+      "id": "node/11245069637"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11245069638",
+        "addr:street": "United Nations Avenue",
+        "amenity": "hospital",
+        "name": "ManilaMed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9853854,
+          14.5826761
+        ]
+      },
+      "id": "node/11245069638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11399863870",
+        "amenity": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.992407,
+          14.5756033
+        ]
+      },
+      "id": "node/11399863870"
+    }
+  ]
+}
