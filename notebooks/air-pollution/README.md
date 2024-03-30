@@ -7,7 +7,15 @@ Air quality is often measured in terms of ozone (O3), nitrogen dioxide (NO2), an
 
 The relationship between air quality and temperature in Manila has not been as highly studied, but research from elsewhere in the world helps us understand the relationship between heatwaves and air temperature. A study over twenty-one years in Seoul showed, for example, that ozone, PM2.5, and sulfur dioxide all increased during heatwave days. The impact of the correlation varies across the world, however; this is an important opportunity to look more closely at what might be the case for the National Capital Region.  
 
- 
+## Research Questions 
+
+- How do PM2.5 and temperature vary in Manila? Is there any relation with mortality?
+- Can we view the effects of legislation in the air quality of the city during heatwaves (ex. Clean Air Act)?
+- How does air quality correlate (or not) with socioeconomic factors (ex. Richer neighborhoods)?
+
+## Data Product
+
+Granularity: 1kmx1km, which does not allow us to make nuanced arguments between air quality hotspots in the city or correlate them with UHI effect
 
 ## References 
 
